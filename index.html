@@ -1,15 +1,16 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Roger Cormier Personal Website</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <script src="https://kit.fontawesome.com/657104b75a.js" crossorigin="anonymous"></script>
     <style>
         body {
             margin: 0;
-            font-family: Nunito, sans-serif;
+            font-family: "Nunito", sans-serif;
         }
 
         a {
@@ -81,7 +82,7 @@
             font-size: 12pt;
             color: #fff;
             text-transform: uppercase;
-            font-family: 'Montserrat', sans-serif;
+            font-family: "Montserrat", sans-serif;
             font-weight: bold;
             line-height: 1.936;
             text-align: left;
@@ -101,17 +102,17 @@
 
         .logo-l {
             color: #fff;
-            font-family: 'Anton', sans-serif;
+            font-family: "Anton", sans-serif;
             font-size: 38px;
             padding-top: 10px;
         }
 
         .logo-r {
             color: #03d600;
-            font-family: 'Anton', sans-serif;
+            font-family: "Anton", sans-serif;
             font-size: 38px;
             padding-top: 10px;
-            font-style: italic
+            font-style: italic;
         }
 
         .logo-spacing {
@@ -131,20 +132,25 @@
             scroll-margin-top: 5em;
         }
 
-        .content .content-text {
+        .content .content-text p {
             margin-bottom: 24px;
             font-size: 20px;
         }
 
         .content h3 {
-            color: #03d600
+            color: #03d600;
         }
 
         .container {
             margin: 0 20%;
         }
 
+        .row {
+            display: flex;
+        }
+
         .card {
+            flex: 50%;
             background-color: #47544b;
             color: #fff;
             padding: 22px;
@@ -199,106 +205,156 @@
     </div>
     <section class="navbar d-flex navbar-fixed-top">
         <div class="logo-spacing">
-            <a href="#"><span class="logo-l">Roger Lee </span><span class="logo-r">Cormier</span></a>
+            <a href="#">
+                <span class="logo-l">Roger Lee </span>
+                <span class="logo-r">Cormier</span>
+            </a>
         </div>
         <nav class="navbar">
             <ul class="nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#faith">Faith</a></li>
-                <li><a href="#family">Family</a></li>
-                <li><a href="#veteran">Veteran</a></li>
-                <li><a href="#coding">Coding</a></li>
+                <li class="active">
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#faith">Faith</a>
+                </li>
+                <li>
+                    <a href="#family">Family</a>
+                </li>
+                <li>
+                    <a href="#veteran">Veteran</a>
+                </li>
+                <li>
+                    <a href="#coding">Coding</a>
+                </li>
             </ul>
         </nav>
-
     </section>
     <div class="content">
         <div class="container">
             <h2 id="faith">FAITH That Gives a Firm Foundation</h2>
-            <p class="content-text">I am a born again Christian, saved by grace through faith. This faith defines me and
-                has been the backbone of my life endeavors. Through each life experience and hardship, my faith has been
-                foundational in guiding me forward, bringing hope, and relieving stress.
-
-            </p>
-            <div class="card">
-                <h3>Hebrews 11:1 </h3><br />
-                "Now faith is the substance of things hoped for, the evidence of things not seen."<br /><br />
+            <div class="content-text">
+                <p>
+                    I am a born again Christian, saved by grace through faith. This faith defines me and has been the
+                    backbone of my life endeavors. Through each life experience and hardship, my faith has been
+                    foundational in guiding me forward, bringing hope, and relieving stress.
+                </p>
+            </div>
+            <div class="row">
+                <div class="card">
+                    <h3>Hebrews 11:1</h3>
+                    <br />
+                    <p>
+                        "Now faith is the substance of things hoped for, the evidence of things not seen."
+                    </p>
+                    <br />
+                </div>
             </div>
         </div>
     </div>
     <div class="content">
         <div class="container">
-            <h2 id="family"><a href="#">FAMILY That Brings Structure</a></h2>
-            <p class="content-text">My growing family are the walls on top of my foundation, and they are the structure
-                that my life has to define many parts of personality and daily lifestyle. I have been married to my wife
-                Ashleigh for 11 years, and we have a beautiful hockey team of 6 children. Our children span the ages of
-                4 through 12, and each child brings their own personality to the family.</p>
-            <p class="content-text">My family has been beside me through many struggles and growing pains, and we have
-                grown stronger together through these experiences. My wife has provided an impeccable support system,
-                and my children have blessed me with inspiration. Each day, my goals are to build my family up with
-                honor and integrity to be the best individuals and family we can be.</p>
-            </p>
-            <div class="card">
-                <h3>Our Family Motto </h3>
-                <ol>
-                    <li>Know Better</li>
-                    <li>Do Better</li>
-                    <li>Be Better</li>
-                </ol>
+            <h2 id="family">
+                <a href="#">FAMILY That Brings Structure</a>
+            </h2>
+            <div class="content-text">
+                <p>
+                    My growing family are the walls on top of my foundation, and they are the structure that my life has
+                    to define many parts of personality and daily lifestyle. I have been married to my wife Ashleigh for
+                    11 years, and we have a beautiful hockey team of 6 children. Our children span the ages of 4 through
+                    12, and each child brings their own personality to the family.
+                </p>
+                <p>
+                    My family has been beside me through many struggles and growing pains, and we have grown stronger
+                    together through these experiences. My wife has provided an impeccable support system, and my
+                    children have blessed me with inspiration. Each day, my goals are to build my family up with honor
+                    and integrity to be the best individuals and family we can be.
+                </p>
+            </div>
+            <div class="row">
+                <div class="card">
+                    <h3>Our Family Motto</h3>
+                    <br />
+                    <p>
+                        "Know Better - Do Better - Be Better."
+                    </p>
+                    <br />
+                </div>
             </div>
         </div>
     </div>
     <div class="content">
         <div class="container">
-            <h2 id="veteran"><a href="#">VETERAN Experience to Shape a Lifestyle</a></h2>
-            <p class="content-text">My military experience has affected me in so many positive ways, but most
-                importantly, it has shaped my character and defined my lifestyle actions. I have become a person that is
-                more analytical, more organized, more concise, and more focused. These traits have blossomed out of my
-                experience as a soldier and as a leader.</p>
-            <p class="content-text">The values that the Army has instilled in me have made me a more reliable and loyal
-                person to those around me. I value people more than I had ever, and I understand duty and sacrifice in
-                ways that I never thought I would. These traits and values have continued to shape my life as a veteran
-                and have defined the meat and potatoes of my personality today.</p>
-            </p>
-            <div class="card">
-                <h3>The Army Values</h3>
-                <ol>
-                    <li>Loyalty</li>
-                    <li>Duty</li>
-                    <li>Respect</li>
-                    <li>Selfless Service</li>
-                    <li>Honor</li>
-                    <li>Integrity</li>
-                    <li>Personal Courage</li>
-                </ol>
+            <h2 id="veteran">
+                <a href="#">VETERAN Experience to Shape a Lifestyle</a>
+            </h2>
+            <div class="content-text">
+                <p>
+                    My military experience has affected me in so many positive ways, but most importantly, it has shaped
+                    my character and defined my lifestyle actions. I have become a person that is more analytical, more
+                    organized, more concise, and more focused. These traits have blossomed out of my experience as a
+                    soldier and as a leader.
+                </p>
+                <p>
+                    The values that the Army has instilled in me have made me a more reliable and loyal person to those
+                    around me. I value people more than I had ever, and I understand duty and sacrifice in ways that I
+                    never thought I would. These traits and values have continued to shape my life as a veteran and have
+                    defined the meat and potatoes of my personality today.
+                </p>
+            </div>
+            <div class="row">
+                <div class="card">
+                    <h3>The Army Values</h3>
+                    <ul>
+                        <li>Loyalty</li>
+                        <li>Duty</li>
+                        <li>Respect</li>
+                        <li>Selfless Service</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>&nbsp;</h3>
+                    <ul>
+                        <li>Honor</li>
+                        <li>Integrity</li>
+                        <li>Personal Courage</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
     <div class="content">
         <div class="container">
-            <h2 id="coding"><a href="#">CODING Hobby to Grow Professionally</a></h2>
-            <p class="content-text">Development has been a long-term hobby of mine, one that has spanned a good 20
-                years.
-                While I have never become a master of any language, I have become proficient enough to be dangerous when
-                diving into code, often modifying already existing code pieces to fit the needs and expectations of the
-                project I am working on. I have taken courses in VB.NET, Java, and HTML/CSS, and I am self-taught in
-                Python.</p>
-            <p class="content-text">My love for web development has been my longest hobby, one that has seen me setting
-                up sites with Joomla,
-                Wordpress, Jekyll, Bootstrap, Tailwind, and now MKDocs with Jinja2. I have toyed with other frameworks
-                and libraries, such as Next.JS, Gatsby, Drupal, and JQuery, but I have never became a master of any. I
-                have a strong interest in Static Site Generators, and hope to dive into more experiences with these
-                types of frameworks. </p>
-            </p>
-            <div class="card">
-                <h3>Development Goals to Conquer</h3>
-                <ol>
-                    <li>Learn Javascript & Typescript</li>
-                    <li>Learn React & Redux</li>
-                    <li>Learn Django & Jinja2</li>
-                    <li>Learn Node.js & Npm</li>
-                    <li>Learn Gulp, Grunt, & Webpack</li>
-                </ol>
+            <h2 id="coding">
+                <a href="#">CODING Hobby to Grow Professionally</a>
+            </h2>
+            <div class="content-text">
+                <p>
+                    Development has been a long-term hobby of mine, one that has spanned a good 20 years. While I have
+                    never become a master of any language, I have become proficient enough to be dangerous when diving
+                    into code, often modifying already existing code pieces to fit the needs and expectations of the
+                    project I am working on. I have taken courses in VB.NET, Java, and HTML/CSS, and I am self-taught in
+                    Python.
+                </p>
+                <p>
+                    My love for web development has been my longest hobby, one that has seen me setting up sites with
+                    Joomla, Wordpress, Jekyll, Bootstrap, Tailwind, and now MKDocs with Jinja2. I have toyed with other
+                    frameworks and libraries, such as Next.JS, Gatsby, Drupal, and JQuery, but I have never became a
+                    master of any. I have a strong interest in Static Site Generators, and I hope to immerse myself into
+                    more experiences with these types of frameworks.
+                </p>
+            </div>
+            <div class="row">
+                <div class="card">
+                    <h3>Development Goals to Conquer</h3>
+                    <ul>
+                        <li>Learn Javascript & Typescript</li>
+                        <li>Learn React & Redux</li>
+                        <li>Learn Django & Jinja2</li>
+                        <li>Learn Node.js & Npm</li>
+                        <li>Learn Gulp, Grunt, & Webpack</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
