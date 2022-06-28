@@ -38,10 +38,26 @@
             display: flex;
         }
 
+        .social::before {
+            content: "";
+            background: url('https://res.cloudinary.com/xivorhub/image/upload/a_270/v1656388304/3fc005f2812b206989d3afefa2bfa719_ghwcwz.jpg');
+            opacity: 0.5;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            width: auto;
+            height: auto;
+            z-index: -3;
+        }
+
         .social {
+            position: relative;
             text-align: center;
             padding: 20px 0;
             display: block;
+            font-size: 25px
         }
 
         .social li {
@@ -52,6 +68,7 @@
             background-color: #47544b;
             justify-content: space-between;
             padding: 0 5%;
+
         }
 
         .header .nav {
@@ -102,7 +119,7 @@
         .header-fixed-top {
             position: -webkit-sticky;
             position: sticky;
-            top: 0px;
+            top: -1px;
             z-index: 99999;
         }
 
@@ -178,43 +195,45 @@
 
 <body>
     <div class="social">
-        <ul>
-            <li>
-                <a href="https://www.linkedin.com/in/rogerleecormier" title="LinkedIn Profile">
-                    <span class="font-awesome">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </span>
-                </a>
-            </li>
-            <li>
-                <a href="https://dev.to/rogerleecormier" title="Dev.to Profile">
-                    <span class="font-awesome">
-                        <i class="fa-brands fa-dev"></i>
-                    </span>
-                </a>
-            </li>
-            <li>
-                <a href="https://twitter.com/rogerleecormier" title="Twitter Profile">
-                    <span class="font-awesome">
-                        <i class="fa-brands fa-twitter-square"></i>
-                    </span>
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/rogerleecormier" title="Github Profile">
-                    <span class="font-awesome">
-                        <i class="fa-brands fa-github-square"></i>
-                    </span>
-                </a>
-            </li>
-            <li>
-                <a href="https://codepen.io/rogerleecormier" title="CodePen Profile">
-                    <span class="font-awesome">
-                        <i class="fa-brands fa-codepen"></i>
-                    </span>
-                </a>
-            </li>
-        </ul>
+        <div class="overlay">
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/rogerleecormier" title="LinkedIn Profile">
+                        <span class="font-awesome">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://dev.to/rogerleecormier" title="Dev.to Profile">
+                        <span class="font-awesome">
+                            <i class="fa-brands fa-dev"></i>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/rogerleecormier" title="Twitter Profile">
+                        <span class="font-awesome">
+                            <i class="fa-brands fa-twitter-square"></i>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/rogerleecormier" title="Github Profile">
+                        <span class="font-awesome">
+                            <i class="fa-brands fa-github-square"></i>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://codepen.io/rogerleecormier" title="CodePen Profile">
+                        <span class="font-awesome">
+                            <i class="fa-brands fa-codepen"></i>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
     <header class="header header-fixed-top d-flex">
         <div>
@@ -225,7 +244,7 @@
                 </a>
             </div>
         </div>
-        <nav class="header">
+        <nav>
             <ul class="nav">
                 <li class="active">
                     <a href="#">Home</a>
