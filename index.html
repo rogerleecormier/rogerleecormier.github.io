@@ -7,11 +7,13 @@
     <title>Roger Cormier Personal Website</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
         integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        crossorigin="anonymous"></script>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&family=Nunito&display=swap');
+
         body {
             margin: 0;
             font-family: "Nunito", sans-serif;
@@ -46,43 +48,43 @@
             display: inline;
         }
 
-        .navbar {
+        .header {
             background-color: #47544b;
             justify-content: space-between;
             padding: 0 5%;
         }
 
-        .navbar .nav {
+        .header .nav {
             justify-content: flex-end;
         }
 
-        .navbar ul {
+        .header ul {
             margin: 0;
             padding: 30px;
         }
 
-        .navbar li {
+        .header li {
             display: inline;
             list-style: none;
             margin-right: 24px;
             position: relative;
         }
 
-        .navbar li.active {
+        .header li.active {
             background-color: #fff;
             color: #47544b;
             padding: 12px;
         }
 
-        .navbar li.active a {
+        .header li.active a {
             color: #47544b !important;
         }
 
-        .navbar li.active a:hover {
+        .header li.active a:hover {
             color: #47544b !important;
         }
 
-        .navbar ul.nav a {
+        .header ul.nav a {
             font-size: 12pt;
             color: #fff;
             text-transform: uppercase;
@@ -93,11 +95,11 @@
             white-space: nowrap;
         }
 
-        .navbar ul.nav a:hover {
+        .header ul.nav a:hover {
             color: #03d600;
         }
 
-        .navbar-fixed-top {
+        .header-fixed-top {
             position: -webkit-sticky;
             position: sticky;
             top: 0px;
@@ -133,7 +135,9 @@
 
         .content h2 {
             margin-bottom: 20px;
-            scroll-margin-top: 5em;
+            padding-top: 5em;
+            margin-top: -5em;
+
         }
 
         .content .content-text p {
@@ -164,6 +168,11 @@
         .card li {
             line-height: 1.4;
         }
+
+        .font-awesome {
+            font-size: 2em;
+            color: #47544b;
+        }
     </style>
 </head>
 
@@ -171,50 +180,52 @@
     <div class="social">
         <ul>
             <li>
-                <a href="https://www.linkedin.com/in/rogerleecormier">
-                    <span style="font-size: 2em; color: #47544b;">
+                <a href="https://www.linkedin.com/in/rogerleecormier" title="LinkedIn Profile">
+                    <span class="font-awesome">
                         <i class="fa-brands fa-linkedin"></i>
                     </span>
                 </a>
             </li>
             <li>
-                <a href="https://dev.to/rogerleecormier">
-                    <span style="font-size: 2em; color: #47544b;">
+                <a href="https://dev.to/rogerleecormier" title="Dev.to Profile">
+                    <span class="font-awesome">
                         <i class="fa-brands fa-dev"></i>
                     </span>
                 </a>
             </li>
             <li>
-                <a href="https://twitter.com/rogerleecormier">
-                    <span style="font-size: 2em; color: #47544b;">
+                <a href="https://twitter.com/rogerleecormier" title="Twitter Profile">
+                    <span class="font-awesome">
                         <i class="fa-brands fa-twitter-square"></i>
                     </span>
                 </a>
             </li>
             <li>
-                <a href="https://github.com/rogerleecormier">
-                    <span style="font-size: 2em; color: #47544b;">
+                <a href="https://github.com/rogerleecormier" title="Github Profile">
+                    <span class="font-awesome">
                         <i class="fa-brands fa-github-square"></i>
                     </span>
                 </a>
             </li>
             <li>
-                <a href="https://codepen.io/rogerleecormier">
-                    <span style="font-size: 2em; color: #47544b;">
+                <a href="https://codepen.io/rogerleecormier" title="CodePen Profile">
+                    <span class="font-awesome">
                         <i class="fa-brands fa-codepen"></i>
                     </span>
                 </a>
             </li>
         </ul>
     </div>
-    <section class="navbar d-flex navbar-fixed-top">
-        <div class="logo-spacing">
-            <a href="#">
-                <span class="logo-l">Roger Lee </span>
-                <span class="logo-r">Cormier</span>
-            </a>
+    <header class="header header-fixed-top d-flex">
+        <div>
+            <div class="logo-spacing">
+                <a href="#">
+                    <span class="logo-l">Roger Lee </span>
+                    <span class="logo-r">Cormier</span>
+                </a>
+            </div>
         </div>
-        <nav class="navbar">
+        <nav class="header">
             <ul class="nav">
                 <li class="active">
                     <a href="#">Home</a>
@@ -233,14 +244,15 @@
                 </li>
             </ul>
         </nav>
-    </section>
-    <div class="content">
+    </header>
+
+    <section class="content">
         <div class="container">
             <h2 id="faith">FAITH That Gives a Firm Foundation</h2>
             <div class="content-text">
                 <p>
-                    I am a born again Christian, saved by grace through faith. This faith defines me and has been the
-                    backbone of my life endeavors. Through each life experience and hardship, my faith has been
+                    I am a born again Christian, saved by grace through faith. This faith defines me and has been
+                    the backbone of my life endeavors. Through each life experience and hardship, my faith has been
                     foundational in guiding me forward, bringing hope, and relieving stress.
                 </p>
             </div>
@@ -255,24 +267,24 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="content">
+    </section>
+    <section class="content">
         <div class="container">
             <h2 id="family">
                 <a href="#">FAMILY That Brings Structure</a>
             </h2>
             <div class="content-text">
                 <p>
-                    My growing family are the walls on top of my foundation, and they are the structure that my life has
-                    to define many parts of personality and daily lifestyle. I have been married to my wife Ashleigh for
-                    11 years, and we have a beautiful hockey team of 6 children. Our children span the ages of 4 through
-                    12, and each child brings their own personality to the family.
+                    My growing family are the walls on top of my foundation, and they are the structure that my life
+                    has to define many parts of personality and daily lifestyle. I have been married to my wife Ashleigh
+                    for 11 years, and we have a beautiful hockey team of 6 children. Our children span the ages of 4
+                    through 12, and each child brings their own personality to the family.
                 </p>
                 <p>
-                    My family has been beside me through many struggles and growing pains, and we have grown stronger
-                    together through these experiences. My wife has provided an impeccable support system, and my
-                    children have blessed me with inspiration. Each day, my goals are to build my family up with honor
-                    and integrity to be the best individuals and family we can be.
+                    My family has been beside me through many struggles and growing pains, and we have grown
+                    stronger together through these experiences. My wife has provided an impeccable support system, and
+                    my children have blessed me with inspiration. Each day, my goals are to build my family up with
+                    honor and integrity to be the best individuals and family we can be.
                 </p>
             </div>
             <div class="row">
@@ -286,24 +298,24 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="content">
+    </section>
+    <section class="content">
         <div class="container">
             <h2 id="veteran">
                 <a href="#">VETERAN Experience to Shape a Lifestyle</a>
             </h2>
             <div class="content-text">
                 <p>
-                    My military experience has affected me in so many positive ways, but most importantly, it has shaped
-                    my character and defined my lifestyle actions. I have become a person that is more analytical, more
-                    organized, more concise, and more focused. These traits have blossomed out of my experience as a
-                    soldier and as a leader.
+                    My military experience has affected me in so many positive ways, but most importantly, it has
+                    shaped my character and defined my lifestyle actions. I have become a person that is more
+                    analytical, more organized, more concise, and more focused. These traits have blossomed out of my
+                    experience as a soldier and as a leader.
                 </p>
                 <p>
-                    The values that the Army has instilled in me have made me a more reliable and loyal person to those
-                    around me. I value people more than I had ever, and I understand duty and sacrifice in ways that I
-                    never thought I would. These traits and values have continued to shape my life as a veteran and have
-                    defined the meat and potatoes of my personality today.
+                    The values that the Army has instilled in me have made me a more reliable and loyal person to
+                    those around me. I value people more than I had ever, and I understand duty and sacrifice in ways
+                    that I never thought I would. These traits and values have continued to shape my life as a veteran
+                    and have defined the meat and potatoes of my personality today.
                 </p>
             </div>
             <div class="row">
@@ -326,26 +338,26 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="content">
+    </section>
+    <section class="content">
         <div class="container">
             <h2 id="coding">
                 <a href="#">CODING Hobby to Grow Professionally</a>
             </h2>
             <div class="content-text">
                 <p>
-                    Development has been a long-term hobby of mine, one that has spanned a good 20 years. While I have
-                    never become a master of any language, I have become proficient enough to be dangerous when diving
-                    into code, often modifying already existing code pieces to fit the needs and expectations of the
-                    project I am working on. I have taken courses in VB.NET, Java, and HTML/CSS, and I am self-taught in
-                    Python.
+                    Development has been a long-term hobby of mine, one that has spanned a good 20 years. While I
+                    have never become a master of any language, I have become proficient enough to be dangerous when
+                    diving into code, often modifying already existing code pieces to fit the needs and expectations of
+                    the project I am working on. I have taken courses in VB.NET, Java, and HTML/CSS, and I am
+                    self-taught in Python.
                 </p>
                 <p>
-                    My love for web development has been my longest hobby, one that has seen me setting up sites with
-                    Joomla, Wordpress, Jekyll, Bootstrap, Tailwind, and now MKDocs with Jinja2. I have toyed with other
-                    frameworks and libraries, such as Next.JS, Gatsby, Drupal, and JQuery, but I have never became a
-                    master of any. I have a strong interest in Static Site Generators, and I hope to immerse myself into
-                    more experiences with these types of frameworks.
+                    My love for web development has been my longest hobby, one that has seen me setting up sites
+                    with Joomla, Wordpress, Jekyll, Bootstrap, Tailwind, and now MKDocs with Jinja2. I have toyed with
+                    other frameworks and libraries, such as Next.JS, Gatsby, Drupal, and JQuery, but I have never became
+                    a master of any. I have a strong interest in Static Site Generators, and I hope to immerse myself
+                    into more experiences with these types of frameworks.
                 </p>
             </div>
             <div class="row">
@@ -361,7 +373,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </body>
 
 </html>
