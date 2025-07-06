@@ -5,14 +5,14 @@ site_author: "rogerleecormier"
 site_url: "https://rogerleecormier.github.io/"
 
 # Navigation
-nav:
-  - Home: index.md
-  - Data Analytics: data-analytics/index.md
-  - Cloud & DevOps Engineering: cloud-devops/index.md
-  - ERP & SaaS Integration: erp-saas/index.md
-  - Digital Transformation Strategy: strategy/index.md
-  - Technical Project Leadership: leadership/index.md
-  - Contact: contact.md
+#nav:
+#  - Home: index.md
+#  - Data Analytics: data-analytics/index.md
+#  - Cloud & DevOps Engineering: cloud-devops/index.md
+#  - ERP & SaaS Integration: erp-saas/index.md
+#  - Digital Transformation Strategy: strategy/index.md
+#  - Technical Project Leadership: leadership/index.md
+#  - Contact: contact.md
 
 # Copyright
 copyright: "&copy; 2021 rogerleecormier"
@@ -91,6 +91,7 @@ plugins:
       separator: '[\s\-\.]+'
       lang:
         - en
+  - awesome-nav
 
 # Customization
 extra_javascript:
