@@ -1,5 +1,5 @@
 # Project information
-site_name: "Roger Cormier Portfolio"
+site_name: "Roger Cormier – Digital Strategy & Execution"
 site_description: "Personal portfolio website using MkDocs Material."
 site_author: "rogerleecormier"
 site_url: "https://rogerleecormier.github.io/"
@@ -32,7 +32,7 @@ theme:
   #text: 'Ubuntu'
   #code: 'Ubuntu Mono'
   #icon:
-  logo: "material/briefcase-outline"
+  logo: 'images/logo.svg'
   #favicon: 'assets/images/favicon.ico'
 use_directory_urls: false
 
