@@ -56,7 +56,7 @@ theme:
     - toc.follow
     - toc.integrate
   font:
-     text: Roboto
+    text: Roboto
     code: Roboto Mono
   favicon: assets/favicon.png
   icon:
