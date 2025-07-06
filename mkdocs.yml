@@ -27,7 +27,8 @@ theme:
     accent: "blue"
   features:
     - tabs
-    - navigation.indexes
+    - navigation.tabs
+    - navigation.sections
   #font:
   #text: 'Ubuntu'
   #code: 'Ubuntu Mono'
