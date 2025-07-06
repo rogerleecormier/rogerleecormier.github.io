@@ -23,9 +23,8 @@ I specialize in bridging the gap between business objectives and technical execu
 Navigate to any category below for a deep dive into relevant projects, tools, and technical strategies.
 
 - [📊 Data Analytics](data-analytics/index.md)
-- [☁️ Cloud Development](cloud-dev/index.md)
-- [🔗 ERP & SaaS Integration](integration/index.md)
-- [⚙️ DevOps & Automation](devops/index.md)
+- [☁️ Cloud & DevOps Engineering](cloud-devops/index.md)
+- [🔗 ERP & SaaS Integration](erp-saas/index.md)
 - [📈 Digital Transformation Strategy](strategy/index.md)
 - [🧭 Technical Project Leadership](leadership/index.md)
 
