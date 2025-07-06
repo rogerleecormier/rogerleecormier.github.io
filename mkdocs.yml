@@ -2,15 +2,15 @@
 site_name: "Roger Cormier Portfolio"
 site_description: "Personal portfolio website using MkDocs Material."
 site_author: "rogerleecormier"
-site_url: "https://rogerleecormier.github.io/portfolio/"
+site_url: "https://rogerleecormier.github.io/"
 
 # Copyright
 copyright: "&copy; 2021 rogerleecormier"
 
 # Repository
 repo_name: "GitHub"
-repo_url: "https://github.com/rogerleecormier/portfolio"
-edit_uri: "https://github.com/rogerleecormier/portfolio/edit/main/docs"
+repo_url: "https://github.com/rogerleecormier"
+edit_uri: "https://github.com/rogerleecormier/edit/main/docs"
 
 # Configuration
 docs_dir: "docs"
