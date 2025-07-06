@@ -4,7 +4,7 @@ This section showcases applied data analytics experience across organizational p
 
 ---
 
-## 🎓 Graduate-Level Analytics Experience
+## 🎓 Graduate-Level Projects
 
 ### Data-Driven Decision Making
 
@@ -34,7 +34,7 @@ This course built analytical fluency in statistics, Excel modeling, and strategi
 
 ---
 
-## 🛠️ Real-World Analytics Projects
+## 🛠️ Real-World Projects
 
 ### AI-Powered Program Dashboards
 Built an Asana AI + ChatGPT-enabled project insight engine to flag schedule risk, velocity drops, and delivery gaps. Replaced 100+ hours/month of manual PM report prep.

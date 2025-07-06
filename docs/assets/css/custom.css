@@ -8,3 +8,8 @@ h3 {
     padding: 0rem 0rem 0.5rem 0.5rem !important;
     border-left: solid 2px rgb(70, 150, 236);
 }
+
+/* Indent only h3 (level 3) items in the right-hand Table of Contents */
+.md-nav--toc .md-nav__item--level-3 {
+  padding-left: 2ch;
+}
