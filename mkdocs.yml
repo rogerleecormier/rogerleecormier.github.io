@@ -24,7 +24,7 @@ theme:
     search: 83 # s
   palette:
     primary: "blue grey"
-    accent: "blue grey"
+    accent: "blue"
   features:
     - tabs
     - navigation.indexes
