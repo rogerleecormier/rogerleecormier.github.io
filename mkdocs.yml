@@ -32,7 +32,7 @@ theme:
   #text: 'Ubuntu'
   #code: 'Ubuntu Mono'
   #icon:
-  #logo: 'images/logo.svg'
+  logo: "material/briefcase-outline"
   #favicon: 'assets/images/favicon.ico'
 use_directory_urls: false
 
