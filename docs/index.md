@@ -1,4 +1,4 @@
-# Roger Cormier – Technical Portfolio
+# Portfolio Home
 
 Welcome. I’m a Technical Program Manager with 15+ years of experience transforming legacy operations into scalable, data-driven, cloud-enabled ecosystems. This portfolio showcases real-world artifacts, systems thinking, and delivery results across a spectrum of roles in education, fintech, and retail.
 
