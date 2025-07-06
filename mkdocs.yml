@@ -23,10 +23,11 @@ theme:
     previous: 80 # p
     search: 83 # s
   palette:
-    primary: "blue"
-    accent: "blue"
+    primary: "blue grey"
+    accent: "blue grey"
   features:
     - tabs
+    - navigation.indexes
   #font:
   #text: 'Ubuntu'
   #code: 'Ubuntu Mono'
