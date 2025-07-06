@@ -92,7 +92,6 @@ plugins:
       lang:
         - en
   - awesome-nav:
-      nav_file: nav.yml
 
 # Customization
 extra_javascript:
