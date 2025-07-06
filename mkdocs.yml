@@ -1,0 +1,65 @@
+# Project information
+site_name: "Roger Cormier Portfolio"
+site_description: "Personal portfolio website using MkDocs Material."
+site_author: "rogerleecormier"
+site_url: "https://rogerleecormier.github.io/portfolio/"
+
+# Copyright
+copyright: "&copy; 2021 rogerleecormier"
+
+# Repository
+repo_name: "GitHub"
+repo_url: "https://github.com/rogerleecormier/portfolio"
+edit_uri: "https://github.com/rogerleecormier/portfolio/edit/main/docs_sample"
+
+# Configuration
+docs_dir: "docs_sample"
+theme:
+  name: "material"
+  language: "en"
+  shortcuts:
+    help: 191 # ?
+    next: 78 # n
+    previous: 80 # p
+    search: 83 # s
+  palette:
+    primary: "blue"
+    accent: "blue"
+  features:
+    - tabs
+  #font:
+  #text: 'Ubuntu'
+  #code: 'Ubuntu Mono'
+  #icon:
+  #logo: 'images/logo.svg'
+  #favicon: 'assets/images/favicon.ico'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - mdx_math:
+      enable_dollar_delimiter: true
+  - toc:
+      permalink: true
+      separator: "_"
+
+plugins:
+  - search:
+      separator: '[\s\-\.]+'
+      lang:
+        - en
+
+# Customization
+extra_javascript:
+  - "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-MML-AM_CHTML"
+extra_css:
+  - "assets/css/custom.css"
+extra:
+  manifest: "manifest.json"
+  social:
+    - icon: "fontawesome/brands/github-alt"
+      link: "https://github.com/rogerleecormier"
+    - icon: "fontawesome/brands/twitter"
+      link: "https://twitter.com/rogerleecormier
