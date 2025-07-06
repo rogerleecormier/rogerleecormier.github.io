@@ -1,4 +1,4 @@
-### ☁️ Cloud Development & DevOps
+# Cloud Development & DevOps
 
 Hands‑on leader delivering **cloud‑native automation, integrations, and CI/CD pipelines** that keep business operations fast, traceable, and secure.  My recent work focuses on **Azure Functions, GitHub Actions, and SaaS‑to‑SaaS integrations** across education, fintech, and retail environments.
 
