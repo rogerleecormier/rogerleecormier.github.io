@@ -33,6 +33,7 @@ theme:
   #icon:
   #logo: 'images/logo.svg'
   #favicon: 'assets/images/favicon.ico'
+use_directory_urls: false
 
 # Extensions
 markdown_extensions:
