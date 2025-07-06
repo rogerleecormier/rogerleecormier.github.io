@@ -80,7 +80,14 @@ plugins:
       separator: '[\s\-\.]+'
       lang:
         - en
-  #- awesome-pages
+  - awesome-pages:
+      filename: .index
+      collapse_single_pages: true
+      strict: false
+      order: asc
+      sort_type: natural
+      order_by: title
+      ignore_case: true
 
 # Customization
 extra_javascript:
@@ -94,8 +101,3 @@ extra:
       link: "https://github.com/rogerleecormier"
     - icon: "fontawesome/brands/twitter"
       link: "https://twitter.com/rogerleecormier"
-nav:
-  - Home: index.md
-  - Data Analytics: data-analytics/index.md
-  - Cloud & DevOps: cloud-devops/index.md
-  - ERP & SaaS Integration: erp-saas/index.md
