@@ -1,62 +1,41 @@
-# Data Analytics
+# Roger Cormier – Technical Portfolio
 
-This section highlights my data analytics competencies built through both real-world systems delivery and formal graduate study. I use data as a strategic asset—enabling leaders to make faster, smarter, and more transparent decisions across finance, operations, and service delivery domains.
+Welcome. I’m a Technical Program Manager with 15+ years of experience transforming legacy operations into scalable, data-driven, cloud-enabled ecosystems. This portfolio showcases real-world artifacts, systems thinking, and delivery results across a spectrum of roles in education, fintech, and retail.
 
----
+I specialize in bridging the gap between business objectives and technical execution—with a proven track record in:
 
-## 🎓 Academic Foundation: BUS563 – Data Analytics
+- **Digital Transformation Strategy**  
+  Designing and governing modernization roadmaps aligned to enterprise goals
 
-In BUS563, I applied core analytical concepts to business problems using a structured, project-based approach. Deliverables emphasized data quality, statistical analysis, visualization, and stakeholder storytelling.
+- **Cloud Development & Integration**  
+  Automating ERP, SaaS, and custom platform workflows using low-code and DevOps patterns
 
-**Key Competencies:**
+- **Data Analytics & Automation**  
+  Creating intelligent dashboards, ETL pipelines, and AI-augmented reporting systems
 
-- Descriptive & inferential statistics (hypothesis testing, regression)
-- Excel-based data modeling and visualization
-- Strategic interpretation of analytics for decision support
-- Communicating actionable insights through visual storytelling
-
-**Capstone Project Phases:**
-
-1. **Dataset Evaluation** – Identified data variables and designed a strategy for central tendency and visual summaries
-2. **Hypothesis Development** – Proposed and validated statistical relationships using t-tests and regression
-3. **Insight Delivery** – Created executive-facing data interpretations and next-step recommendations
-
-Course Outcomes Mapped:
-- CO1: Articulated data’s role in competitive advantage
-- CO2: Used analytics to drive strategic choices
-- CO3: Distinguished valid vs. flawed analyses
-- CO5: Delivered stakeholder-ready insight reports
+- **Project & Program Leadership**  
+  Delivering complex initiatives using Agile, hybrid, and PMBOK-aligned methodologies
 
 ---
 
-## 🛠️ Real-World Applications
+## 🔍 Explore by Specialization
 
-### AI-Powered Reporting for Project Leadership
-I developed an Asana-integrated dashboard pipeline that leveraged AI (Asana AI + ChatGPT) to expose delivery risk, scope drift, and team capacity in real time—replacing 100+ hours/month of manual PM reporting.
+Navigate to any category below for a deep dive into relevant projects, tools, and technical strategies.
 
-### KPI System for SaaS Support Operations
-Designed and operationalized an automated KPI dashboard tied to NetSuite and ticketing systems. Visual analytics reduced average time-to-resolution by 30% and enabled forecasting across 350+ tickets/month.
-
-### Retail & eWIC Analytics
-Led statistical analysis on self-checkout performance data across 100+ retail lanes, increasing adoption by 45%. Also built Python/VBScript-based compliance dashboards for eWIC and security audits.
-
----
-
-## 🔍 Tools & Techniques
-
-- **Languages**: Python, SQL, Excel
-- **Visualization**: Power BI, Looker Studio, Excel
-- **Statistical Methods**: Central tendency, t-tests, correlation, regression
-- **Delivery Formats**: Executive dashboards, compliance reports, strategic briefings
+- [📊 Data Analytics](data-analytics/index.md)
+- [☁️ Cloud Development](cloud-dev/index.md)
+- [🔗 ERP & SaaS Integration](integration/index.md)
+- [⚙️ DevOps & Automation](devops/index.md)
+- [📈 Digital Transformation Strategy](strategy/index.md)
+- [🧭 Technical Project Leadership](leadership/index.md)
 
 ---
 
-## 📈 Impact Statement
+## 🔗 Let’s Connect
 
-Whether it’s building dashboards for C-level execs or conducting hypothesis-driven project evaluations, I bring both academic rigor and operational speed to the data analytics lifecycle. My approach is anchored in one principle:
+- [LinkedIn Profile](https://www.linkedin.com/in/rogerleecormier/)
+- [Contact Me](contact.md)
 
-> *Data is only valuable if it drives better decisions.*
+> *“Execution without strategy is aimless. Strategy without execution is pointless.”*  
+> This portfolio is built to prove I drive both.
 
----
-
-[← Back to Home](../index.md) | [Contact Me](../contact.md)
