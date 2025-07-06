@@ -1,4 +1,4 @@
-name: github pages
+name: Portofolio Deployment to GitHub Pages
 
 on:
   push:
