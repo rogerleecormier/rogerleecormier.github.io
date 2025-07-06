@@ -1,4 +1,4 @@
-# Data Analytics
+# 📈 Data Analytics
 
 This section showcases applied data analytics experience across organizational programs and graduate-level research. My approach blends technical execution with strategic framing—delivering insight that drives decisions, not just dashboards.
 
@@ -6,7 +6,7 @@ This section showcases applied data analytics experience across organizational p
 
 ## 🎓 Graduate-Level Analytics Experience
 
-### IND503 – Data-Driven Decision Making (Excelsior University)
+### Data-Driven Decision Making
 
 In this course, I designed a workplace data strategy to combat the opioid crisis by promoting alternative pain management treatments. The result: a structured program called **PainSmart**, which used both quantitative and qualitative analysis to forecast outcomes and assess impact.
 
@@ -21,7 +21,7 @@ In this course, I designed a workplace data strategy to combat the opioid crisis
 
 ---
 
-### BUS563 – Data Analytics
+### Data Analytics
 
 This course built analytical fluency in statistics, Excel modeling, and strategic data storytelling. I completed structured assignments and a multi-phase final project focused on:
 
