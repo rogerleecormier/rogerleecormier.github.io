@@ -61,7 +61,7 @@ theme:
   favicon: assets/favicon.png
   icon:
     logo: logo
-  logo: 'images/logo-white.svg'
+  logo: "images/logo-white.svg"
   #favicon: 'assets/images/favicon.ico'
 #use_directory_urls: false
 
