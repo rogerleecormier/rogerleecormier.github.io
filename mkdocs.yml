@@ -13,7 +13,7 @@ repo_url: "https://github.com/rogerleecormier/portfolio"
 edit_uri: "https://github.com/rogerleecormier/portfolio/edit/main/docs_sample"
 
 # Configuration
-docs_dir: "docs_sample"
+docs_dir: "docs"
 theme:
   name: "material"
   language: "en"
