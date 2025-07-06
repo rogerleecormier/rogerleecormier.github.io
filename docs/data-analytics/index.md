@@ -32,13 +32,13 @@ Course Outcomes Mapped:
 ## 🛠️ Real-World Applications
 
 ### AI-Powered Reporting for Project Leadership
-I developed an Asana-integrated dashboard pipeline that leveraged AI (Asana AI + ChatGPT) to expose delivery risk, scope drift, and team capacity in real time—replacing 100+ hours/month of manual PM reporting.
+I developed an Asana-integrated dashboard pipeline that leveraged Asana AI to expose delivery risk, scope drift, and team capacity in real time—replacing 100+ hours/month of manual PM reporting.
 
 ### KPI System for SaaS Support Operations
-Designed and operationalized an automated KPI dashboard tied to NetSuite and ticketing systems. Visual analytics reduced average time-to-resolution by 30% and enabled forecasting across 350+ tickets/month.
+Designed and operationalized an automated KPI dashboard tied to a Smartsheet ticketing systems. Visual analytics reduced average time-to-resolution by 30% and enabled forecasting across 350+ tickets/month.
 
-### Retail & eWIC Analytics
-Led statistical analysis on self-checkout performance data across 100+ retail lanes, increasing adoption by 45%. Also built Python/VBScript-based compliance dashboards for eWIC and security audits.
+### Retail Analytics
+Led statistical analysis on self-checkout performance data across 100+ retail lanes, increasing adoption by 45%. 
 
 ---
 
