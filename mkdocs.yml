@@ -84,6 +84,7 @@ markdown_extensions:
   - toc:
       permalink: true
       separator: "_"
+      toc_depth: 2-3   # Only show h2 and h3 in the ToC/anchors
 
 plugins:
   - search:
