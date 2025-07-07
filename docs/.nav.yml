@@ -1,12 +1,12 @@
 nav:
   - Portfolio:
-    - Overview: portfolio.md
+    - Overview: portfolio/index.md
     - Data Analytics: data-analytics/index.md
     - Cloud & DevOps Engineering: cloud-devops/index.md
     - ERP & SaaS Integration: erp-saas/index.md
     - Digital Transformation Strategy: strategy/index.md
     - Technical Project Leadership: leadership/index.md
-  - About: about.md
+  - About: about/index.md
   - Culture: culture/index.md
-  - Vision: vision.md
-  - Contact: contact.md
+  - Vision: vision/index.md
+  - Contact: contact/index.md
