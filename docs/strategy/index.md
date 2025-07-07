@@ -129,4 +129,4 @@ Smartsheet • NetSuite Vendor Master • Email (for approvals)
 
 ---
 
-For more detail on any of these transformation projects or implementation diagrams, [contact me](contact.md).
+For more detail on any of these transformation projects or implementation diagrams, [contact me](../contact/index.md).

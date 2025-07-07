@@ -50,4 +50,4 @@ My worldview drives me to lead with consistency, care, and conviction—regardle
 
 ---
 
-For more about how I lead teams through change, complexity, and delivery, explore my [Digital Transformation Strategy](digital-transformation.md) or [Technical Project Leadership](technical-project-leadership.md) pages.
+For more about how I lead teams through change, complexity, and delivery, explore my [Digital Transformation Strategy](../strategy/index.md) or [Technical Project Leadership](../leadership/index.md) pages.

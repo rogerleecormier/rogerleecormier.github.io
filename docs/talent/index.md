@@ -111,4 +111,4 @@ My work in this domain deepens my capability to design scalable talent systems, 
 
 ---
 
-For documentation, source briefs, or annotated deliverables, please [contact me](../contact.md).
+For documentation, source briefs, or annotated deliverables, please [contact me](../contact/index.md).

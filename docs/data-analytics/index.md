@@ -66,4 +66,4 @@ I bring the rigor of statistical analysis and the clarity of executive communica
 
 ---
 
-[← Back to Home](../index.md) | [📩 Contact Me](../contact.md)
+[📩 Contact Me](../contact/index.md)

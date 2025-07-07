@@ -111,4 +111,4 @@ I operate across business and engineering domains, enabling secure, scalable, an
 
 ---
 
-For detailed documentation, architecture diagrams, or role-specific case studies, [contact me](contact.md).
+For detailed documentation, architecture diagrams, or role-specific case studies, [contact me](../contact/index.md).

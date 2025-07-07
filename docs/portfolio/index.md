@@ -25,19 +25,19 @@ I specialize in bridging the gap between business objectives and technical execu
 
 Navigate to any category below for a deep dive into relevant projects, tools, and technical strategies.
 
-- [📊 Data Analytics](data-analytics/index.md)
-- [☁️ Cloud & DevOps Engineering](cloud-devops/index.md)
-- [🔗 ERP & SaaS Integration](erp-saas/index.md)
-- [📈 Digital Transformation Strategy](strategy/index.md)
-- [🧭 Technical Project Leadership](leadership/index.md)
-- [🏛️ Organizational Strategy & Talent Innovation](talent/index.md)
+- [📊 Data Analytics](../data-analytics/index.md)
+- [☁️ Cloud & DevOps Engineering](../cloud-devops/index.md)
+- [🔗 ERP & SaaS Integration](../erp-saas/index.md)
+- [📈 Digital Transformation Strategy](../strategy/index.md)
+- [🧭 Technical Project Leadership](../leadership/index.md)
+- [🏛️ Organizational Strategy & Talent Innovation](../talent/index.md)
 
 ---
 
 ## 🔗 Let’s Connect
 
 - [LinkedIn Profile](https://www.linkedin.com/in/rogerleecormier/)
-- [Contact Me](contact.md)
+- [Contact Me](../contact/index.md)
 
 > *“Execution without strategy is aimless. Strategy without execution is pointless.”*  
 > This portfolio is built to prove I drive both.

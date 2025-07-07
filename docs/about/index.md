@@ -77,4 +77,4 @@ I don’t bring religion into the workplace, but I do lead with consistency, hum
 ## 📫 Let’s Connect
 
 I’m always open to discussing systems leadership, enterprise transformation, or cross-functional delivery strategy.  
-Reach out via my [Contact](contact.md) page or connect with me on [LinkedIn](https:/)
+Reach out via my [Contact](../contact/index.md) page or connect with me on [LinkedIn](https:/)
