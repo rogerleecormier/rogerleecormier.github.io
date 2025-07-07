@@ -16,6 +16,9 @@ I specialize in bridging the gap between business objectives and technical execu
 - **Project & Program Leadership**  
   Delivering complex initiatives using Agile, hybrid, and PMBOK-aligned methodologies
 
+- **Organizational Strategy & Talent Innovation**  
+  Designing workforce solutions, governance frameworks, and leadership development pipelines for mission-aligned execution
+
 ---
 
 ## 🔍 Explore by Specialization
@@ -27,6 +30,7 @@ Navigate to any category below for a deep dive into relevant projects, tools, an
 - [🔗 ERP & SaaS Integration](erp-saas/index.md)
 - [📈 Digital Transformation Strategy](strategy/index.md)
 - [🧭 Technical Project Leadership](leadership/index.md)
+- [🏛️ Organizational Strategy & Talent Innovation](talent/index.md)
 
 ---
 
@@ -37,4 +41,3 @@ Navigate to any category below for a deep dive into relevant projects, tools, an
 
 > *“Execution without strategy is aimless. Strategy without execution is pointless.”*  
 > This portfolio is built to prove I drive both.
-

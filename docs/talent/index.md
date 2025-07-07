@@ -1,13 +1,20 @@
+# 🧠 Organizational Strategy & Talent Innovation
+
+This section highlights my work at the intersection of organizational behavior, workforce design, and talent innovation. Drawing from leadership experience and advanced study in Organizational Leadership, I bring a systems-thinking mindset to team development, strategic alignment, and culture-forward transformation.
+
+All artifacts referenced below are available upon request.
+
+---
+
 ## 🏛️ Organizational Strategy & Talent Innovation
 
-My academic journey in Organizational Leadership has complemented my professional experience by deepening my capability to design talent systems, improve strategic alignment, and apply data-informed leadership principles across sectors. Below are key contributions from academic engagements that align with my broader project leadership experience:
+My work in this domain deepens my capability to design scalable talent systems, improve strategic alignment, and apply data-informed leadership principles across industries. The projects below demonstrate a blend of research, systems thinking, and actionable strategy aligned to mission-critical goals.
 
 ---
 
 ### 🎯 Army Health Clinic Modernization Initiative
 
 **Project Type:** Talent Strategy and Organizational Development  
-**Course:** IND502 – Strategic Talent Management  
 **Role:** Research Lead & Project Co-author  
 
 - Conducted stakeholder analysis and organizational diagnosis for the Moncrief Army Health Clinic.
@@ -22,44 +29,86 @@ My academic journey in Organizational Leadership has complemented my professiona
 ### 🤝 Strategic Offer Design Simulation
 
 **Project Type:** Compensation & Talent Acquisition  
-**Course:** IND502 – Strategic Talent Management  
 **Role:** Negotiation Lead  
 
 - Developed a realistic job offer simulation, including salary negotiation dynamics, benefits discussion, and final offer letter.
 - Modeled effective hiring practices with respect to role alignment, candidate fit, and flexible working considerations.
 
-📝 *Simulated role-play exercise reflecting best practices in compensation strategy and candidate experience.*
+📝 *Artifacts available upon request.*
 
 ---
 
 ### 🔍 Learning & Development Program Blueprint
 
 **Project Type:** Workforce Capability Development  
-**Course:** IND502 – Strategic Talent Management  
 **Role:** Program Architect  
 
 - Designed a scalable learning and development program tailored to an evolving workforce.
 - Emphasized critical thinking, career pathways, and internal promotion readiness.
 - Included rationale for ROI on internal training investments and employee retention strategy.
 
-📁 *Detailed program proposal and competency framework available on request.*
+📁 *Artifacts available upon request.*
 
 ---
 
 ### 🚀 BCG Forage Consulting Simulation
 
 **Project Type:** Product Strategy & Design Thinking  
-**Course:** BUS540 – Strategic Management of Innovative Technology  
 **Role:** Product Manager & Strategic Designer  
 
-- Participated in virtual consulting simulations with Boston Consulting Group (BCG), focusing on:
-  - AI-powered data extraction for SMBs.
-  - Experience design for diabetes care management.
-  - Agile product planning for a retail analytics solution.
-- Delivered personas, journey maps, MVP plans, and feature prioritization logic across real-world challenges.
+- Led consulting simulations focused on AI-powered SMB tooling, patient-centered healthcare solutions, and agile retail analytics.
+- Delivered user personas, journey maps, MVPs, and feature prioritization logic across complex real-world challenges.
 
-📘 *Forage simulation reflection and solution briefs available upon request.*
+📘 *Artifacts available upon request.*
 
 ---
 
-This section showcases how I bridge **theory and practice**, pairing strategic frameworks with practical execution to improve organizational performance, workforce alignment, and innovation pipelines.
+### 🌐 Leading Global Product Teams
+
+**Context:** International Product Rollout Scenario  
+**Role:** Communication Strategist  
+
+- Developed a cross-cultural communication and collaboration strategy for a global SaaS launch team.
+- Balanced cultural diversity, stakeholder expectations, and delivery urgency through structured cadence and communication plans.
+- Applied frameworks in psychological safety, conflict resolution, and team structure to improve clarity and performance.
+
+📎 *Artifacts available upon request.*
+
+---
+
+### 🛠 Managing a Diverse Workplace
+
+**Context:** Inclusive Leadership Strategy  
+**Focus:** Equitable policy and team dynamics in hybrid environments  
+
+- Explored systemic barriers to equity in remote/hybrid tech organizations.
+- Proposed interventions tied to hiring, evaluation, and performance management frameworks.
+
+📎 *Artifacts available upon request.*
+
+---
+
+### 🧩 Organizational Consulting Simulation – Microsoft IT Support
+
+**Context:** Operational and Cultural Redesign  
+**Role:** Strategy Designer & Research Analyst  
+
+- Diagnosed inefficiencies and burnout risk within Tier 1 support operations.
+- Proposed a 7-part strategy focused on CSAT improvement, role clarity, and engineer retention.
+- Applied journey mapping, operational data, and internal feedback loops to guide design.
+
+📎 *Artifacts available upon request.*
+
+---
+
+## 💡 Core Competencies Demonstrated
+
+- Organizational design and role architecture  
+- DEI-aware talent planning and workforce development  
+- Change leadership and culture-driven transformation  
+- Cross-functional collaboration and stakeholder engagement  
+- Theoretical rigor combined with practical execution
+
+---
+
+For documentation, source briefs, or annotated deliverables, please [contact me](../contact.md).
