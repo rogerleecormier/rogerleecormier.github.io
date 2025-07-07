@@ -1,87 +1,122 @@
-# ☁️ Cloud & DevOps Engineering
+# ☁️ Cloud & DevOps Engineering
 
-As a Technical Project Manager and systems integrator, I have led cloud automation, SaaS orchestration, and DevOps practices that bridge strategy with executable technical workflows. My work has consistently reduced manual effort, increased traceability, and enhanced release confidence across education, fintech, and retail.
-
----
-
-## 🔧 Core Tooling & Stack
-
-- **Cloud Platform**: Azure (Functions, Blob Storage, Deployment Slots)
-- **CI/CD**: GitHub Actions (YAML workflows, slot promotion, tagging)
-- **Automation & Scripting**: Python, PowerShell, SuiteScript, Power Automate
-- **SaaS Platforms**: NetSuite, Vena, Box, Ramp, Checkbook.io, Smartsheet
-- **Environments**: Git-based pipelines, serverless architecture, VMware test labs
+I operate at the intersection of product leadership and hands‑on engineering, turning fragmented SaaS ecosystems into automated, audit‑ready pipelines. Across education, fintech, and retail, my projects eliminate manual toil, harden release governance, and surface real‑time insight for hundreds of end‑users — all while keeping compliance teams happy.
 
 ---
 
-## 🔁 Portfolio Outcomes
+## 🔧 Core Tooling & Stack
 
-### Azure-Based ETL Automation – Box → Vena
-**Stack**: Azure Functions, GitHub Actions, Java ETL, Box API  
-**Summary**: Designed and maintained a serverless pipeline that automates the movement of Box files into Vena, triggering downstream Java-based ETL. Built-in logging, retry logic, and automated deployment via GitHub Actions improve reliability.
-
-- Replaced error-prone manual tasks with automated flows
-- Enabled daily processing SLAs and traceable release history
-- Integrated secure secrets management and log analytics
-
----
-
-### DevOps with AI Assistance
-**Stack**: ChatGPT, GitHub Copilot, Asana AI  
-**Summary**: Introduced AI tooling into DevOps workflows for documentation, stakeholder communications, and code generation. Standardized practices for AI-augmented sprint summaries and automation of changelogs.
-
-- Reclaimed 100+ manual hours/month across 4 processes
-- Integrated AI tools into GitHub workflow for PR descriptions and comments
-- Reduced tech writer workload for internal platform rollouts
+| Domain | Primary Tools & Services |
+|--------|--------------------------|
+| **Cloud & CI/CD** | Azure Functions, Azure Communication Services, Azure Key Vault, Azure Application Insights, GitHub Actions |
+| **Automation & Scripting** | Python, PowerShell, SuiteScript, Power Automate, Batch |
+| **SaaS Surface Area** | NetSuite, Vena, Box, Ramp, Checkbook.io, Smartsheet |
+| **Environments** | Git-first workflows, serverless architecture, VMware test labs |
 
 ---
 
-### Financial Workflow Automation (NetSuite, Ramp, Checkbook.io)
-**Stack**: Power Automate, SuiteScript, Python, API connectors  
-**Summary**: Led the design and delivery of an integrated AP processing pipeline. Data from NetSuite synced to Ramp and Checkbook for invoice approvals and payment disbursement.
+## 🔁 Portfolio Highlights
 
-- Designed flows used by 300+ end-users across education clients
-- Ensured separation of duties and automated audit trails
-- Supported multi-entity GL logic and conditional approval routing
+### 📦 Box → Vena Serverless ETL
+**Stack:** Azure Functions • GitHub Actions • Java ETL • Box API
 
----
+Replaced a legacy server-based batch script with a cloud-native, serverless pipeline that processes ad hoc financial data files from Box into Vena using a Java-based ETL. The solution includes schema validation, idempotent retry logic, detailed logging with Azure Application Insights, and secret management via Azure Key Vault. Azure Communication Services handles real-time email alerts, and GitHub Actions automates the build and deployment workflow for consistent, version-controlled releases.
 
-### CI/CD Pipeline Governance
-**Stack**: GitHub Actions, release discipline, tagging workflows  
-**Summary**: Standardized GitOps pipeline using GitHub Actions, establishing clear workflows for version tagging, release slot promotion, and staging-to-prod transitions.
-
-- Reduced release friction across internal tech platforms
-- Introduced QA environments using Azure slot strategies
-- Established traceable deployment records for compliance
+- Retired legacy infrastructure, eliminating infrastructure and maintenance overhead
+- Cut integration failure rates by 75% via validation, retries, and notifications
+- Improved auditability and supportability with structured logs and config-driven design
 
 ---
 
-### POS Automation at Scale (Ravyx US)
-**Stack**: Windows batch, VBScript, Python, VMware  
-**Summary**: Developed over 30 automation scripts for patching, updates, reporting, and device prep across 150+ retail sites. Used local VMs to stage validation cycles prior to rollout.
+### 🤖 AI-Augmented & Cloud Native Development
+**Stack:** GitHub Codespaces • GitHub Copilot • Claude • ChatGPT
 
-- Reduced support ticket volume by automating device setup and log handling
-- Delivered PCI-compliant systems in regulated food retail context
-- Improved first-time success rates for field deployments
+Leveraged AI and cloud-based developer environments to optimize backend automation and integration workflows. Used GitHub Codespaces to provision consistent, pre-configured dev environments for rapid iteration on Python and SuiteScript projects. Combined Copilot, Claude, and ChatGPT to scaffold code, debug, and accelerate internal tool development. AI was also used to draft internal documentation, explain API behaviors, and test edge-case scenarios.
 
----
-
-## 📈 Demonstrated Impact
-
-- 🕒 **Reduced manual integration time** by 20+ hours/week through Azure Functions
-- 🚀 **Increased CI/CD velocity** via GitHub Actions and slot-based rollout logic
-- 🤖 **Enabled AI-assisted engineering** workflows across DevOps and PM cycles
-- 🧾 **Standardized AP processing** across multiple SaaS platforms and orgs
+- Reduced environment setup time from hours to minutes via Codespaces
+- Automated low-level scripting tasks, reclaiming ~100 dev-hours/month
+- Accelerated delivery of finance automation tools and CI/CD optimizations
 
 ---
 
-## 🔑 Skills & Keywords
+### 💳 Finance Ops Orchestration
+**Stack:** Oracle NetSuite • SuiteScript • REST APIs
+
+Engineered a NetSuite-native ACH automation that directly integrates with Checkbook.io via REST API, eliminating all manual file uploads and payor selection by AP staff. The legacy process introduced financial risk due to duplicate file submissions and incorrect payor choices—risks that Checkbook.io’s interface could not detect or block. The new customization transmits payment data programmatically from NetSuite, enforces entity-specific rules, and validates GL segments before submission.
+
+- Eliminated duplicate and misrouted ACH payments
+- Removed all manual interaction with Checkbook.io's UI
+- Implemented GL validation and role-based controls via SuiteScript
+- Thoroughly tested in sandbox environments and deployed with AP team training
+- Supports 300+ charter school users across multiple entities
+
+---
+
+### 🛠️ Custom Automation Utilities  
+**Stack:** Python • Power Automate • SuiteScript • Smartsheet API • Excel XML • Outlook • Microsoft Teams  
+
+Developed lightweight, task-specific automation tools to streamline finance operations, data formatting, and service request handling. These standalone utilities were built to meet precise use-case requirements where no off-the-shelf solution could suffice:
+
+---
+
+#### 🔁 CalPERS XLSX → XML Transformer  
+A Python utility that converts the CalPERS pension contribution spreadsheet into a standards-compliant XML document required by county systems.  
+*Reduced manual rework, ensured submission compliance, and eliminated formatting errors.*
+
+---
+
+#### 📁 Box-to-Smartsheet Documentation Indexer  
+A Python app that recursively scans documentation folders in Box, extracts file metadata, and pushes structured results to a Smartsheet dashboard via REST API.  
+*Enabled live inventory tracking of documentation assets across finance and operations.*
+
+---
+
+#### 🧾 NetSuite CSV Data Pipeline for Accounting Reports  
+Transforms raw NetSuite-exported CSVs into validated accounting reports, applying custom logic for categorization, GL accuracy, and data cleanup. Final output is auto-formatted for import back into NetSuite.  
+*Improved month-end reconciliation speed and reduced human error.*
+
+---
+
+#### 📬 Outlook-to-Smartsheet Ticket Automation (Power Automate)  
+Built cloud flows that scan incoming emails in Microsoft Outlook and generate new Smartsheet tickets when they match pre-configured criteria. Includes parsing of email content and assignment rules.  
+*Streamlined intake and response time for 300+ support requests monthly.*
+
+---
+
+#### 👥 Onboarding Tracker Integration via Teams & Outlook (Power Automate)  
+Created flows that listen for onboarding-related emails or Teams messages, extract key data, and populate SmartSheet onboarding trackers.  
+*Improved onboarding SLA adherence and centralized handoff tracking.*
+
+---
+
+### 🖥️ Retail POS Automation at Scale
+**Stack:** Python • VBScript • Windows Batch • VMware
+
+Authored 30+ automation scripts to patch Toshiba TCxSky/4690 POS nodes, push zero-day security fixes, and capture forensic logs across 150+ stores. A fleet of 50+ VMware clones mirrors production for pre-rollout validation.
+
+- Field deployment speed up 3×
+- Ticket volume down 40%
+- First-time-pass installs above 95%
+
+---
+
+## 📈 Measured Impact
+
+- 🕒 **20+ hours/week** of manual integration effort eliminated via Azure Functions    
+- 🤖 **100+ hours/month** reclaimed using AI-assisted DevOps tooling  
+- 🧾 **300+ users** across 50+ clients onboarded to fully automated finance pipelines
+- 🚀 Accelerated deployment cycles via GitHub Actions and repeatable workflows  
+
+---
+
+## 🔑 Skills & Keywords
 
 `Azure Functions`, `GitHub Actions`, `CI/CD Automation`,  
-`Python Scripting`, `Power Automate`, `SuiteScript`,  
-`Box/Vena ETL`, `AI in DevOps`, `ERP Integration`,  
-`VMware`, `POS Rollouts`, `Release Governance`, `Cloud Ops`
+`Python Scripting`, `SuiteScript`, `Power Automate`,  
+`Box-Vena ETL`, `AI-Enhanced Development`, `ERP Integration`,  
+`VMware Automation`, `POS Rollouts`, `DevOps Tooling`, `Cloud Ops`
 
 ---
 
-> **“DevOps isn’t just delivery velocity—it’s strategic alignment between automation, quality, and business goals.”**
+> **“Velocity without traceability is vanity; true DevOps balances shipped value with defensible compliance.”**
+
