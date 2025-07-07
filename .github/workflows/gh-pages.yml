@@ -38,6 +38,9 @@ jobs:
 
       - run: mkdocs build --config-file ./mkdocs.yml
 
+      - name: Create CNAME file
+        run: echo "www.rcormier.dev" > ./site/CNAME
+
       - name: Deploy to GitHub Pages
         if: github.ref == 'refs/heads/main'
         uses: peaceiris/actions-gh-pages@v3.0.0
@@ -46,4 +49,4 @@ jobs:
           publish_dir: ./site
           force_orphan: true
           user_name: rogerleecormier
-          user_email: rogerleecormier@users.noreply.github.com
+          user_email: rogerleecormier@gmail.com
