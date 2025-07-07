@@ -1,13 +1,9 @@
 nav:
   - Home: index.md
-  - Data Analytics:
-      - data-analytics/index.md
-  - Cloud & DevOps Engineering:
-      - cloud-devops/index.md
-  - ERP & SaaS Integration:
-      - erp-saas/index.md
-  - Digital Transformation Strategy:
-      - strategy/index.md
-  - Technical Project Leadership:
-      - leadership/index.md
+  - Portfolio:
+    - Data Analytics: data-analytics/index.md
+    - Cloud & DevOps Engineering: cloud-devops/index.md
+    - ERP & SaaS Integration: erp-saas/index.md
+    - Digital Transformation Strategy: strategy/index.md
+    - Technical Project Leadership: leadership/index.md
   - Contact: contact.md
