@@ -6,4 +6,6 @@ nav:
     - ERP & SaaS Integration: erp-saas/index.md
     - Digital Transformation Strategy: strategy/index.md
     - Technical Project Leadership: leadership/index.md
+  - About: about.md
+  - Culture: culture/index.md
   - Contact: contact.md
