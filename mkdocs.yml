@@ -68,10 +68,9 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: assets/favicon.png
   icon:
     logo: logo
-  #favicon: 'assets/images/favicon.ico'
+  favicon: 'assets/images/favicon.ico'
 #use_directory_urls: false
 
 # Extensions
