@@ -72,7 +72,7 @@ A Python app that recursively scans documentation folders in Box, extracts file 
 ---
 
 #### 🧾 NetSuite CSV Data Pipeline for Accounting Reports  
-Transforms raw NetSuite-exported CSVs into validated accounting reports, applying custom logic for categorization, GL accuracy, and data cleanup. Final output is auto-formatted for import back into NetSuite.  
+A Python utility that transforms raw NetSuite-exported CSVs into validated accounting reports, applying custom logic for categorization, GL accuracy, and data cleanup. Final output is auto-formatted for import back into NetSuite.  
 *Improved month-end reconciliation speed and reduced human error.*
 
 ---
