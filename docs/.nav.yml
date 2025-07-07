@@ -1,5 +1,4 @@
 nav:
-  - Home: index.md
   - Portfolio:
     - Overview: portfolio.md
     - Data Analytics: data-analytics/index.md
