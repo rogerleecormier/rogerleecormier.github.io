@@ -26,7 +26,7 @@ edit_uri: "https://github.com/rogerleecormier/edit/main/docs"
 docs_dir: "docs"
 theme:
   name: "material"
-  logo: images/logo-white.svg
+  logo: assets/images/logo-white.svg
   language: "en"
   shortcuts:
     help: 191 # ?
