@@ -1,6 +1,7 @@
 nav:
   - Home: index.md
   - Portfolio:
+    - Overview: portfolio.md
     - Data Analytics: data-analytics/index.md
     - Cloud & DevOps Engineering: cloud-devops/index.md
     - ERP & SaaS Integration: erp-saas/index.md
