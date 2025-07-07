@@ -16,7 +16,7 @@ As a Technical Project Manager and systems integrator, I have led cloud automati
 
 ## 🔁 Portfolio Outcomes
 
-### 📦 Azure-Based ETL Automation – Box → Vena
+### Azure-Based ETL Automation – Box → Vena
 **Stack**: Azure Functions, GitHub Actions, Java ETL, Box API  
 **Summary**: Designed and maintained a serverless pipeline that automates the movement of Box files into Vena, triggering downstream Java-based ETL. Built-in logging, retry logic, and automated deployment via GitHub Actions improve reliability.
 
@@ -26,7 +26,7 @@ As a Technical Project Manager and systems integrator, I have led cloud automati
 
 ---
 
-### 🤖 DevOps with AI Assistance
+### DevOps with AI Assistance
 **Stack**: ChatGPT, GitHub Copilot, Asana AI  
 **Summary**: Introduced AI tooling into DevOps workflows for documentation, stakeholder communications, and code generation. Standardized practices for AI-augmented sprint summaries and automation of changelogs.
 
@@ -36,7 +36,7 @@ As a Technical Project Manager and systems integrator, I have led cloud automati
 
 ---
 
-### 💳 Financial Workflow Automation (NetSuite, Ramp, Checkbook.io)
+### Financial Workflow Automation (NetSuite, Ramp, Checkbook.io)
 **Stack**: Power Automate, SuiteScript, Python, API connectors  
 **Summary**: Led the design and delivery of an integrated AP processing pipeline. Data from NetSuite synced to Ramp and Checkbook for invoice approvals and payment disbursement.
 
@@ -46,7 +46,7 @@ As a Technical Project Manager and systems integrator, I have led cloud automati
 
 ---
 
-### 🧪 CI/CD Pipeline Governance
+### CI/CD Pipeline Governance
 **Stack**: GitHub Actions, release discipline, tagging workflows  
 **Summary**: Standardized GitOps pipeline using GitHub Actions, establishing clear workflows for version tagging, release slot promotion, and staging-to-prod transitions.
 
@@ -56,7 +56,7 @@ As a Technical Project Manager and systems integrator, I have led cloud automati
 
 ---
 
-### 🧾 POS Automation at Scale (Ravyx US)
+### POS Automation at Scale (Ravyx US)
 **Stack**: Windows batch, VBScript, Python, VMware  
 **Summary**: Developed over 30 automation scripts for patching, updates, reporting, and device prep across 150+ retail sites. Used local VMs to stage validation cycles prior to rollout.
 

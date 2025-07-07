@@ -17,7 +17,7 @@ As a NetSuite administrator and cross-platform integrator, I specialize in build
 
 ## 📌 Key Outcomes
 
-### 📑 NetSuite Admin & Workflow Governance  
+### NetSuite Admin & Workflow Governance  
 **Stack**: NetSuite, SuiteScript, saved searches  
 - Managed permissions, workflows, and integrations for internal teams and 300+ client users  
 - Created saved searches, conditional logic, and automation for finance and operations  
@@ -25,7 +25,7 @@ As a NetSuite administrator and cross-platform integrator, I specialize in build
 
 ---
 
-### 💸 Ramp & Checkbook.io Integration  
+### Ramp & Checkbook.io Integration  
 **Stack**: Power Automate, NetSuite, REST APIs  
 - Built automated workflows for AP invoice syncing, card transactions, and payment dispatch  
 - Delivered logic for approvals, GL alignment, and payment triggers  
@@ -33,7 +33,7 @@ As a NetSuite administrator and cross-platform integrator, I specialize in build
 
 ---
 
-### 📊 Vena Integration for Budget & Forecasting  
+### Vena Integration for Budget & Forecasting  
 **Stack**: Box, Azure Functions, Vena  
 - Built and supported file pipeline from Box to Vena for automated budget updates  
 - Coordinated Java-based ETL jobs triggered by file presence and naming conventions  
@@ -41,7 +41,7 @@ As a NetSuite administrator and cross-platform integrator, I specialize in build
 
 ---
 
-### 📋 SaaS Workflow Unification (Smartsheet, Asana, Box)  
+### SaaS Workflow Unification (Smartsheet, Asana, Box)  
 - Supported onboarding of Smartsheet as a PMO operations tool  
 - Aligned data flows between Box (documents), Smartsheet (status), and NetSuite (AP/PO)  
 - Created reference templates and automated sync scripts
