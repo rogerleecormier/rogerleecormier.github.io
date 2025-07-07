@@ -1,6 +1,6 @@
 # 👤 About Me
 
-![Roger Cormier](assets/images/IMG_1242.JPG)
+![Roger Cormier](https://www.rcormier.dev/assets/images/IMG_1242.JPG)
 
 I’m Roger Cormier—a Technical Project Manager and U.S. Army veteran who operates at the intersection of cloud platforms, SaaS ecosystems, and operational strategy. I specialize in modernizing legacy systems, integrating enterprise tools, and aligning cross-functional teams around systems thinking and practical execution.
 
