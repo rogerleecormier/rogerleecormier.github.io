@@ -25,24 +25,26 @@ edit_uri: "https://github.com/rogerleecormier/edit/main/docs"
 # Configuration
 docs_dir: "docs"
 theme:
-  name: "material"
-  logo: assets/images/logo-white.svg
-  language: "en"
-  shortcuts:
-    help: 191 # ?
-    next: 78 # n
-    previous: 80 # p
-    search: 83 # s
+  name: material
   palette:
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: teal       # change from indigo → teal
+      accent: deeporange  # change from indigo → deeporange
+      primary_hue: 700     # picks #00897B
+      accent_hue: 300      # picks #FF7043
+      background: "#FAFAFA"
+      text:       "#212121"
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
+
     - scheme: slate
-      primary: orange
-      accent: orange
+      primary: teal         # change from orange → teal
+      accent: deeporange    # change from orange → deeporange
+      primary_hue: 200       # picks #4DB6AC
+      accent_hue: 200        # picks #FF8A65
+      background: "#121212"
+      text:       "#E0E0E0"
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
