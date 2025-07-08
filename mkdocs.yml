@@ -1,8 +1,8 @@
 # Project information
 site_name: "Roger Cormier – Digital Strategy & Execution"
-site_description: "Personal portfolio website using MkDocs Material."
+site_description: "Digital Strategy & Execution Portfolio - A showcase of my cloud automation, DevOps pipelines, and SaaS integration projects, complete with measurable business impact."
 site_author: "rogerleecormier"
-site_url: "https://rogerleecormier.github.io/"
+site_url: "https://www.rcormier.dev"
 
 # Navigation
 #nav:

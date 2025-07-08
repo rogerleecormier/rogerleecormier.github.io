@@ -1,6 +1,6 @@
 ---
-title: "Roger Cormier"
-description: "Digital Strategy & Execution Portfolio - About Me"
+title: "About Me"
+description: "Learn how I leverage cloud automation, DevOps best practices, and SaaS integrations to drive digital strategy and measurable impact."
 social:
   image: "assets/images/social/logo-white.svg"
 ---
