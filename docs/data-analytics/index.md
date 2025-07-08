@@ -1,69 +1,72 @@
-# 📈 Data Analytics
+# 📈 Data Analytics
 
-This section showcases applied data analytics experience across organizational programs and graduate-level research. My approach blends technical execution with strategic framing—delivering insight that drives decisions, not just dashboards.
-
----
-
-## 🎓 Graduate-Level Projects
-
-### Data-Driven Decision Making
-
-In this course, I designed a workplace data strategy to combat the opioid crisis by promoting alternative pain management treatments. The result: a structured program called **PainSmart**, which used both quantitative and qualitative analysis to forecast outcomes and assess impact.
-
-**Key Components:**
-
-- **Hypothesis Design**: Reducing opioid prescriptions through holistic health interventions
-- **Forecasting Analysis**: Trend projection of opioid prescriptions without intervention vs. with MBSR, chiropractic, and yoga options
-- **Statistical Evaluation**: Applied paired *t*-tests to assess significance of outcome changes
-- **Tooling**: Data visualization planned in Power BI/Tableau; qualitative surveys for engagement analysis
-
-> 📌 Outcome: Designed a multi-phase program rollout with tracked KPIs and analytics dashboards to support HR, executive leadership, and healthcare provider coordination.
+This section highlights my growing analytics skill set—blending graduate‑level statistical assignments with real‑world automation projects. I focus on producing insights that drive decisions, not just dashboards.
 
 ---
 
-### Data Analytics
+## 🎓 Graduate‑Level Coursework Highlights
 
-This course built analytical fluency in statistics, Excel modeling, and strategic data storytelling. I completed structured assignments and a multi-phase final project focused on:
+| Assignment (Excel)                     | Purpose & Skills Demonstrated | Key Takeaway |
+|----------------------------------------|-------------------------------|--------------|
+| **Descriptive Statistics**             | Mean, median, mode, variance, standard deviation, five‑number summary | Established baseline opioid‑related metrics for Dayton vs. state averages |
+| **Comparison of Means (t‑Test)**       | Two‑sample t‑test (equal/unequal variance), confidence intervals | Showed that alternative‑therapy employers have statistically lower opioid‑prescription counts (p < 0.05) |
+| **Correlation & Regression**           | Pearson r, scatterplots, simple linear regression, \(R^{2}\) | Identified strong positive correlation (r ≈ 0.82) between opioid prescriptions and overdose deaths; regression model explains ~67 % of variance |
+| **Data‑Driven Advertisement**          | Data visualization & storytelling | Translated regression output into a one‑page ad advocating employer‑funded MBSR and chiropractic care |
+| **ANOVA (3‑Group)**                    | One‑way ANOVA + post‑hoc planning | F = 0.91, p = 0.437 → no significant overdose‑rate difference among Urban, Suburban, Rural areas |
+| **Time‑Series Forecasting**            | Excel Forecast Sheet, moving average, MAPE | Projected 5‑year opioid‑death trend; baseline model indicates plateau by Year 3 under PainSmart intervention |
 
-- Descriptive & inferential statistics (central tendency, correlation, regression)
-- Excel-based data modeling and visualization
-- Business case analysis with scenario forecasting
-- Delivering stakeholder-facing insight presentations
-
-> 📌 Outcome: Delivered an end-to-end analytics pipeline — from dataset selection and hypothesis framing to insight communication and executive reporting.
-
----
-
-## 🛠️ Real-World Projects
-
-### AI-Powered Program Dashboards
-Built an Asana AI + ChatGPT-enabled project insight engine to flag schedule risk, velocity drops, and delivery gaps. Replaced 100+ hours/month of manual PM report prep.
-
-### ERP-Ticket Analytics & Service KPIs
-Led development of NetSuite-integrated KPI dashboards tracking volume, resolution time, SLA compliance, and root-cause analysis across 350+ tickets/month. Drove 30% faster resolutions through automated insight loops.
-
-### Retail & Compliance Analytics
-Statistically analyzed 100+ retail self-checkout lanes to increase adoption by 45%. Used Python/VBScript pipelines to build compliance and patch reporting dashboards for eWIC systems.
+> **Artifacts:** Workbooks and interpretive briefs are available upon request.
 
 ---
 
-## 🧰 Tools & Skills
+## 💊 *PainSmart* Alternative Pain‑Management Strategy
 
-| Area | Tools |
-|------|-------|
-| Programming | Python, SQL |
-| Visualization | Power BI, Tableau, Excel |
-| Stats & Modeling | *t*-tests, regression, forecasting |
-| Data Delivery | Dashboards, stakeholder briefings, strategic reports |
+Built on the assignments above, *PainSmart* is a data‑informed wellness program designed to curb opioid reliance through holistic treatments (chiropractic, yoga, MBSR).
+
+- **Forecasting Model:** Excel projections show potential **5 % annual reduction** in opioid prescriptions with program adoption.
+- **Business Case:** T‑test evidence plus regression savings model supports lower healthcare spend and higher employee retention.
+
+---
+
+## 🔁 ETL Automation & Dashboarding
+
+### Python / SQL / Power Automate Pipelines
+
+| Workflow                        | Tech Stack                   | Impact |
+|---------------------------------|------------------------------|--------|
+| **Box → Vena** Forecast Upload  | Python + Vena API            | Standardized file validation; eliminated manual errors |
+| **Outlook / Teams → Smartsheet** | Power Automate + Smartsheet  | Auto‑creates onboarding & ticket‑tracking rows; improved SLA clarity |
+| **Retail Compliance Logs**      | VBScript + batch processing  | Consolidated eWIC patch reports; boosted audit readiness |
+
+---
+
+## 🛠 Current Reporting Solutions
+
+| Platform          | KPI Focus                                 |
+|-------------------|-------------------------------------------|
+| **Smartsheet**    | NetSuite ticket volume, backlog aging, SLA compliance |
+| **Asana AI**      | Sprint velocity summaries, risk mentions, task‑owner workload |
+| **Excel**         | Statistical analysis, what‑if forecasts, executive visuals |
+
+---
+
+## 🧰 Core Tools & Techniques
+
+| Category            | Detail                                             |
+|---------------------|----------------------------------------------------|
+| Programming & ETL   | Python, SQL, Power Automate, VBScript              |
+| Statistics          | t‑tests, correlation, simple regression, ANOVA, forecasting |
+| Visualization       | Excel charts, Smartsheet dashboards                |
+| Storytelling        | Data‑driven ads, stakeholder briefs, KPI one‑pagers|
 
 ---
 
 ## 💡 Philosophy
 
-> *“Data is only valuable when it transforms into insight—and insight is only useful when it drives action.”*
+> *“Insight only matters if it drives smarter, faster decisions.”*
 
-I bring the rigor of statistical analysis and the clarity of executive communication to every project I lead or support.
+Whether streamlining ETL, forecasting risk, or translating statistics into persuasive narratives, I turn data into action for healthier people and more efficient operations.
 
 ---
 
-[📩 Contact Me](../contact/index.md)
+📥 *All Excel workbooks, forecasting models, and documentation are available upon request.*
