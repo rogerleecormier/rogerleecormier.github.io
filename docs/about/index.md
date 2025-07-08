@@ -1,6 +1,6 @@
 ---
 title: "Roger Cormier"
-description: "Digital Strategy & Execution - About Me"
+description: "Digital Strategy & Execution Portfolio - About Me"
 social:
   image: "assets/images/social/logo-white.svg"
 ---

@@ -94,10 +94,7 @@ plugins:
       lang:
         - en
   - awesome-nav:
-  - social:
-      cards_layout_options:
-        title: "Roger Cormier"
-        description: "Digital Strategy & Execution"
+  - social
 
 # Customization
 extra_javascript:
