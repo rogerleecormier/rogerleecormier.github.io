@@ -1,72 +1,97 @@
-# 📈 Data Analytics
+# 📈 Data Analytics
 
-This section highlights my growing analytics skill set—blending graduate‑level statistical assignments with real‑world automation projects. I focus on producing insights that drive decisions, not just dashboards.
-
----
-
-## 🎓 Graduate‑Level Coursework Highlights
-
-| Assignment (Excel)                     | Purpose & Skills Demonstrated | Key Takeaway |
-|----------------------------------------|-------------------------------|--------------|
-| **Descriptive Statistics**             | Mean, median, mode, variance, standard deviation, five‑number summary | Established baseline opioid‑related metrics for Dayton vs. state averages |
-| **Comparison of Means (t‑Test)**       | Two‑sample t‑test (equal/unequal variance), confidence intervals | Showed that alternative‑therapy employers have statistically lower opioid‑prescription counts (p < 0.05) |
-| **Correlation & Regression**           | Pearson r, scatterplots, simple linear regression, \(R^{2}\) | Identified strong positive correlation (r ≈ 0.82) between opioid prescriptions and overdose deaths; regression model explains ~67 % of variance |
-| **Data‑Driven Advertisement**          | Data visualization & storytelling | Translated regression output into a one‑page ad advocating employer‑funded MBSR and chiropractic care |
-| **ANOVA (3‑Group)**                    | One‑way ANOVA + post‑hoc planning | F = 0.91, p = 0.437 → no significant overdose‑rate difference among Urban, Suburban, Rural areas |
-| **Time‑Series Forecasting**            | Excel Forecast Sheet, moving average, MAPE | Projected 5‑year opioid‑death trend; baseline model indicates plateau by Year 3 under PainSmart intervention |
-
-> **Artifacts:** Workbooks and interpretive briefs are available upon request.
+Data enables visibility, action, and accountability. In my role as a Technical Project Manager, I use analytics to identify delivery risks, expose operational inefficiencies, and improve cross-functional coordination. This page highlights applied analytics across real-world projects and graduate-level training, with a focus on execution—not abstraction.
 
 ---
 
-## 💊 *PainSmart* Alternative Pain‑Management Strategy
+## 🛠 Real-World Analytics in Practice
 
-Built on the assignments above, *PainSmart* is a data‑informed wellness program designed to curb opioid reliance through holistic treatments (chiropractic, yoga, MBSR).
+### ✅ Asana AI Reporting for Project Risk
 
-- **Forecasting Model:** Excel projections show potential **5 % annual reduction** in opioid prescriptions with program adoption.
-- **Business Case:** T‑test evidence plus regression savings model supports lower healthcare spend and higher employee retention.
+- Used Asana’s built-in AI tools to surface risk indicators, missed deadlines, and task velocity drops across parallel workstreams.
+- Automated report exports used in weekly status calls with product owners and technical leads.
+- Provided leadership with early warnings and improved sprint closure predictability.
 
----
+### 📊 Service Ops Dashboards via Smartsheet
 
-## 🔁 ETL Automation & Dashboarding
+- Designed Smartsheet dashboards to visualize NetSuite ticket volume, aging trends, and SLA performance.
+- Enabled Finance, IT, and Operations leaders to review open issues by type and urgency, reducing misalignment and response lag.
+- Created automated alerts for ticket stalling, improving average resolution time.
 
-### Python / SQL / Power Automate Pipelines
+### 🔁 Cross-Platform ETL Automation
 
-| Workflow                        | Tech Stack                   | Impact |
-|---------------------------------|------------------------------|--------|
-| **Box → Vena** Forecast Upload  | Python + Vena API            | Standardized file validation; eliminated manual errors |
-| **Outlook / Teams → Smartsheet** | Power Automate + Smartsheet  | Auto‑creates onboarding & ticket‑tracking rows; improved SLA clarity |
-| **Retail Compliance Logs**      | VBScript + batch processing  | Consolidated eWIC patch reports; boosted audit readiness |
+- **Python-based ETL**: Automated Box → Vena upload pipelines for forecast files, validating naming conventions and structure before delivery.
+- **SQL for Ad Hoc Analytics**: Used to query transactional records and support reporting use cases in internal tools.
+- **Power Automate Pipelines**:
+  - Outlook-to-Smartsheet parsing for onboarding and intake tickets.
+  - Teams post tracking to Smartsheet for HR and IT coordination.
+  - Structured input layers for multi-department workflows.
 
----
-
-## 🛠 Current Reporting Solutions
-
-| Platform          | KPI Focus                                 |
-|-------------------|-------------------------------------------|
-| **Smartsheet**    | NetSuite ticket volume, backlog aging, SLA compliance |
-| **Asana AI**      | Sprint velocity summaries, risk mentions, task‑owner workload |
-| **Excel**         | Statistical analysis, what‑if forecasts, executive visuals |
+📌 Result: Eliminated spreadsheet ping-pong, improved handoff accuracy, and increased confidence in reporting fidelity.
 
 ---
 
-## 🧰 Core Tools & Techniques
+## 📈 Project Metrics & Governance
 
-| Category            | Detail                                             |
-|---------------------|----------------------------------------------------|
-| Programming & ETL   | Python, SQL, Power Automate, VBScript              |
-| Statistics          | t‑tests, correlation, simple regression, ANOVA, forecasting |
-| Visualization       | Excel charts, Smartsheet dashboards                |
-| Storytelling        | Data‑driven ads, stakeholder briefs, KPI one‑pagers|
+Analytics used in technical program delivery includes:
 
----
+| Metric Type            | Example Use Case                                                |
+|------------------------|------------------------------------------------------------------|
+| Sprint velocity        | Trend velocity drops and delivery bottlenecks across work items |
+| Ticket backlog aging   | Track SLA compliance and triage urgency                         |
+| Forecast accuracy      | Validate project timelines and onboarding cycles                |
+| Reconciliation metrics | Ensure ERP record sync between Ramp, NetSuite, and Smartsheet   |
 
-## 💡 Philosophy
-
-> *“Insight only matters if it drives smarter, faster decisions.”*
-
-Whether streamlining ETL, forecasting risk, or translating statistics into persuasive narratives, I turn data into action for healthier people and more efficient operations.
+I embed these insights into status meetings, retrospectives, and stakeholder communications to ground decision-making in data, not assumptions.
 
 ---
 
-📥 *All Excel workbooks, forecasting models, and documentation are available upon request.*
+## 🎓 Academic Foundation in Analytics
+
+As part of my M.S. in Organizational Leadership, I completed a graduate course in **Data-Driven Decision Making**, applying Excel-based statistics and forecasting to real-world scenarios.
+
+### Key Competencies Gained:
+
+| Technique              | Tools & Methods                                 |
+|------------------------|--------------------------------------------------|
+| Descriptive stats      | Mean, median, variance, five-number summary     |
+| Inferential stats      | t-tests, ANOVA, confidence intervals            |
+| Correlation & regression | Pearson r, simple linear regression, scatterplots |
+| Forecasting            | Time series models, moving averages, Excel tools|
+| Storytelling           | Data-driven ads, executive summaries            |
+
+---
+
+### 💊 Capstone Project: *PainSmart*
+
+**Objective:** Design a workplace wellness strategy to reduce opioid prescriptions through alternative pain management.
+
+- Built statistical comparison models using public health data
+- Conducted t-tests to show outcome significance (p < 0.05)
+- Built regression model to forecast opioid trendline with vs. without intervention
+- Designed a rollout model with KPIs and executive-facing dashboards
+
+📁 *Workbooks and final proposal available upon request.*
+
+---
+
+## 🔧 Tools & Platforms
+
+| Area               | Tools Used                                              |
+|--------------------|---------------------------------------------------------|
+| Automation & ETL   | Python, SQL, Power Automate, VBScript, Box API          |
+| Dashboards         | Smartsheet, Excel Charts, Asana AI                      |
+| Statistical Tools  | Excel (Analysis ToolPak), scenario modeling, regression |
+| Data Communication | Reports, stakeholder briefings, one-pager visualizations|
+
+---
+
+## 💡 Analytics Philosophy
+
+> *“Insight is only valuable when it transforms behavior.”*
+
+Whether I’m automating a forecast intake, streamlining ticket analysis, or guiding leadership through performance trends, my analytics work always serves action and alignment—not just reporting for its own sake.
+
+---
+
+📥 *Artifacts and Excel analysis samples available on request.*
