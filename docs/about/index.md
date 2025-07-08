@@ -1,3 +1,10 @@
+---
+title: "Roger Cormier"
+description: "Digital Strategy & Execution - About Me"
+social:
+  image: "assets/images/social/logo-white.svg"
+---
+
 # 👤 About Me
 
 ![Roger Cormier](https://www.rcormier.dev/assets/images/IMG_1242.JPG)
