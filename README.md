@@ -1,66 +1,68 @@
-<h1 align="center">
-<img src="https://raw.githubusercontent.com/peaceiris/mkdocs-material-boilerplate/main/docs_sample/images/graduate-cap.png" alt="MkDocs icon" width="170">
-<br>MkDocs Material<br>Boilerplate - Starter Kit
-</h1>
+# From Docs to Delivery
 
-![Eyecatch image of MkDocs Material Boilerplate (Starter Kit)](https://raw.githubusercontent.com/peaceiris/mkdocs-material-boilerplate/main/docs_sample/images/material.png)
+A developer‑native, Markdown‑first portfolio site built with [MkDocs](https://www.mkdocs.org/) and the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme, deployed via GitHub Actions to GitHub Pages.
 
+---
 
+## 🚀 Overview
 
-[![license](https://img.shields.io/github/license/peaceiris/mkdocs-material-boilerplate.svg)](https://github.com/peaceiris/mkdocs-material-boilerplate/blob/main/LICENSE)
-[![release](https://img.shields.io/github/release/peaceiris/mkdocs-material-boilerplate.svg)](https://github.com/peaceiris/mkdocs-material-boilerplate/releases/latest)
-[![GitHub release date](https://img.shields.io/github/release-date/peaceiris/mkdocs-material-boilerplate.svg)](https://github.com/peaceiris/mkdocs-material-boilerplate/releases)
-[![GitHub Actions status](https://github.com/peaceiris/mkdocs-material-boilerplate/workflows/github%20pages/badge.svg)](https://github.com/peaceiris/mkdocs-material-boilerplate/actions)
+This repository contains the source for my portfolio site, showcasing cloud automation, DevOps projects, and custom tooling utilities. Instead of a traditional CMS or hand‑coded HTML, the site leverages:
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9c95ccf4-5c1e-447b-8025-dd0b6f8764a5/deploy-status)](https://app.netlify.com/sites/mkdocs-material/deploys)
+- **Markdown** for all content  
+- **Git** for versioning, review, and collaboration  
+- **CI/CD** for zero‑touch builds & deploys  
 
-<!-- https://shields.io/ -->
+---
 
+## 🔧 Tech Stack
 
+- **Site generator:** MkDocs 1.6.1  
+- **Theme:** Material for MkDocs 9.x  
+- **Authoring:** VS Code + GitHub Copilot, ChatGPT for content drafting & polishing  
+- **CI/CD:** GitHub Actions (`mkdocs build` → `gh-pages` publish)  
+- **Hosting:** GitHub Pages (custom domain via Porkbun)  
 
-## Details
+---
 
-Read more 👉 [Documentation - MkDocs Material Boilerplate]
+## 🔌 Plugins & Extensions
 
-[Documentation - MkDocs Material Boilerplate]: https://peaceiris.github.io/mkdocs-material-boilerplate/
+**Core MkDocs Plugins**  
+- `search` – full‑text site search with custom tokenization  
+- `mkdocs-awesome-nav` – YAML‑driven sidebar navigation via `nav.yml`  
+- `mkdocs-get-deps` – dynamically include external Markdown snippets  
+- `git-revision-date-localized` – shows “Last updated” dates using Git  
+- `optimize` – minifies HTML/CSS/JS for faster page loads  
+- `social` – auto‑generates Open Graph/social preview cards
 
+**Markdown Extensions**  
+- `admonition` & `pymdown-extensions` – callouts, tabs, syntax highlights, emojis  
+- `codehilite` – enhanced code block highlighting  
+- `mdx_math` – LaTeX/KaTeX math support  
+- `toc` – automatic table‑of‑contents with permalinks  
 
+---
 
-## Quick start
+## 🌈 Material Theme Features
 
-```sh
-git clone https://github.com/peaceiris/mkdocs-material-boilerplate.git
-cd mkdocs-material-boilerplate
-pipenv sync --dev
-pipenv shell
-inv serve --config-file mkdocs-sample.yml
-```
+Material for MkDocs enables a rich, enterprise‑grade UI without custom code:
 
+- **Built‑in search** with highlighted results  
+- **Light/dark mode toggle**  
+- **Tabbed content** & **navigation tabs**  
+- **Copy‑to‑clipboard** buttons on code blocks  
+- **Inline code annotations**  
+- **Instant loading** & **prefetching**  
+- **Sticky sidebar** with section dividers  
+- **“Back to top”** button and scroll‑spy  
+- **Dismissible announcement bar**  
 
+These features ensure fast, accessible, and intuitive navigation across the site.
 
-## Links
+---
 
-- [mkdocs/mkdocs: Project documentation with Markdown - GitHub]
-- [squidfunk/mkdocs-material: A Material Design theme for MkDocs]
+## 📥 Getting Started
 
-[mkdocs/mkdocs: Project documentation with Markdown - GitHub]: https://github.com/mkdocs/mkdocs/
-[squidfunk/mkdocs-material: A Material Design theme for MkDocs]: https://github.com/squidfunk/mkdocs-material
-
-
-
-## License
-
-- [MIT License]
-- [The graduate cap icon] made by [Freepik] from [www.flaticon.com] is licensed by [CC 3.0 BY]
-
-[MIT License]: https://github.com/peaceiris/mkdocs-material-boilerplate/blob/main/LICENSE
-[The graduate cap icon]: https://www.flaticon.com/free-icon/graduate-cap_62627
-[Freepik]: https://www.freepik.com/
-[www.flaticon.com]: https://www.flaticon.com/
-[CC 3.0 BY]: http://creativecommons.org/licenses/by/3.0/
-
-
-
-## About Maintainer
-
-- [peaceiris Homepage](https://peaceiris.com/)
+1. **Clone**  
+   ```bash
+   git clone https://github.com/rogerleecormier/portfolio-site.git
+   cd portfolio-site
