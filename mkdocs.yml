@@ -94,7 +94,6 @@ plugins:
       lang:
         - en
   - awesome-nav:
-  - optimize
   - social:
       cards_layout_options:
         title: "Roger Cormier"
