@@ -52,40 +52,44 @@ Engineered a NetSuite-native ACH automation that directly integrates with Checkb
 
 ---
 
-### Custom Automation Utilities  
-**Stack:** Python • Power Automate • SuiteScript • Smartsheet API • Excel XML • Outlook • Microsoft Teams  
+### 🌐 Portfolio Site — MkDocs, GitHub Actions & Pages  
+**Stack:** MkDocs (Material) • Python • GitHub Actions • GitHub Pages • VS Code • GitHub Copilot • ChatGPT • HTML/CSS
 
-Developed lightweight, task-specific automation tools to streamline finance operations, data formatting, and service request handling. These standalone utilities were built to meet precise use-case requirements where no off-the-shelf solution could suffice:
+Built this portfolio itself as a standalone DevOps project to **“treat documentation like code.”**  
+Key architecture points:
 
----
+| Layer | Detail |
+|-------|--------|
+| **Static‑site generator** | MkDocs 1.6 + Material 9.x theme |
+| **Docs as Code** | Markdown in `docs/`, version‑controlled in Git |
+| **Plugins & Enhancements** | `search`, `mkdocs-awesome-nav`, `social`, `admonition`, `pymdown-extensions`, `mdx_math` |
+| **CI/CD** | Two GitHub Actions workflows:<br>• **Deploy** – installs deps, runs `mkdocs build`, publishes `site/` to `gh-pages` via **peaceiris/actions-gh-pages**<br>• **pages-build-deployment** – GitHub‑managed final publish step |
+| **Hosting** | GitHub Pages with custom domain **rcormier.dev** (DNS via Porkbun) |
+| **Authoring** | VS Code with Copilot for YAML/Markdown scaffolding; ChatGPT for structure & copyediting |
+| **Performance** | Build under 10 s; output optimized to ~2 MB; instant‑loading navigation via Material’s `navigation.instant` |
 
-#### CalPERS XLSX → XML Transformer  
-A Python utility that converts the CalPERS pension contribution spreadsheet into a standards-compliant XML document required by county systems.  
-*Reduced manual rework, ensured submission compliance, and eliminated formatting errors.*
+**Why it matters:**
 
----
-
-#### 📁 Box-to-Smartsheet Documentation Indexer  
-A Python app that recursively scans documentation folders in Box, extracts file metadata, and pushes structured results to a Smartsheet dashboard via REST API.  
-*Enabled live inventory tracking of documentation assets across finance and operations.*
-
----
-
-#### 🧾 NetSuite CSV Data Pipeline for Accounting Reports  
-A Python utility that transforms raw NetSuite-exported CSVs into validated accounting reports, applying custom logic for categorization, GL accuracy, and data cleanup. Final output is auto-formatted for import back into NetSuite.  
-*Improved month-end reconciliation speed and reduced human error.*
-
----
-
-#### 📬 Outlook-to-Smartsheet Ticket Automation (Power Automate)  
-Built cloud flows that scan incoming emails in Microsoft Outlook and generate new Smartsheet tickets when they match pre-configured criteria. Includes parsing of email content and assignment rules.  
-*Streamlined intake and response time for 300+ support requests monthly.*
+- **DevOps for Docs** — PR‑driven content updates with branch previews  
+- **Zero servers** — static hosting means no runtime patches or bills  
+- **Auditable change history** — every edit is traceable via GitHub  
+- **Skill depth** — demonstrates expertise in static‑site generators, HTML/CSS theming, and GitHub Actions YAML orchestration  
 
 ---
 
-#### 👥 Onboarding Tracker Integration via Teams & Outlook (Power Automate)  
-Created flows that listen for onboarding-related emails or Teams messages, extract key data, and populate SmartSheet onboarding trackers.  
-*Improved onboarding SLA adherence and centralized handoff tracking.*
+### 🛠️ Custom Automation Utilities  
+**Stack:** Python • Power Automate • SuiteScript • Smartsheet API • Excel XML • Outlook • Teams  
+
+A suite of targeted tools that bridge gaps traditional SaaS vendors leave open:
+
+| Utility | Purpose | Impact |
+|---------|---------|--------|
+| **CalPERS XLSX → XML Transformer** | Convert pension spreadsheets to county‑standard XML via Python | Eliminated manual re‑entry; ensured compliance |
+| **Box → Smartsheet Indexer** | Recursively catalog docs and push metadata to Smartsheet | Real‑time inventory across finance ops |
+| **NetSuite CSV Data Pipeline** | Clean & transform exports for accurate re‑import | Faster month‑end close; fewer posting errors |
+| **Outlook → Smartsheet Tickets** | Auto‑create tickets from emails with Power Automate | 300 + support requests triaged monthly |
+| **Onboarding Tracker Flows** | Populate Smartsheet from Teams/Outlook events | Improved SLA adherence for new hires |
+
 
 ---
 
@@ -105,16 +109,15 @@ Authored 30+ automation scripts to patch Toshiba TCxSky/4690 POS nodes, push zer
 - 🕒 **20+ hours/week** of manual integration effort eliminated via Azure Functions    
 - 🤖 **100+ hours/month** reclaimed using AI-assisted DevOps tooling  
 - 🧾 **300+ users** across 50+ clients onboarded to fully automated finance pipelines
-- 🚀 Accelerated deployment cycles via GitHub Actions and repeatable workflows  
+- - 🌐 **<10s** static‑site builds, **$0** hosting cost on GitHub Pages  
 
 ---
 
 ## 🔑 Skills & Keywords
 
-`Azure Functions`, `GitHub Actions`, `CI/CD Automation`,  
-`Python Scripting`, `SuiteScript`, `Power Automate`,  
-`Box-Vena ETL`, `AI-Enhanced Development`, `ERP Integration`,  
-`VMware Automation`, `POS Rollouts`, `DevOps Tooling`, `Cloud Ops`
+`Azure Functions` · `GitHub Actions` · `CI/CD Automation` · `MkDocs Static‑Site Generator` · `HTML/CSS Theming` ·  
+`Python Scripting` · `SuiteScript` · `Power Automate` · `Box‑Vena ETL` · `AI‑Enhanced Development` ·  
+`ERP Integration` · `GitHub Pages Hosting` · `VMware LabOps` · `POS Rollouts` · `DevOps Tooling` · `Cloud Ops`
 
 ---
 
