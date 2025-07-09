@@ -45,7 +45,9 @@ As a TPM, I deliver value across the full lifecycle—from strategy to rollout�
 
 ## 🪖 Military Background
 
-Before entering the private sector, I served in the U.S. Army, where I developed the discipline, clarity, and operational awareness that still shape my leadership style today. My military experience instilled a bias toward action, ownership under pressure, and the ability to navigate complex, high-stakes environments.
+Before entering the private sector, I served as a Non-Commissioned Officer (NCO) in the U.S. Army, leading signal communications teams responsible for secure, mission-critical infrastructure across global operations. My roles included managing RF and satellite transmission systems, overseeing WIN-T tactical networks, and operating 24/7 Network Operations Centers (NOCs) in high-stakes environments.
+
+This experience instilled a leadership style rooted in discipline, clarity, and ownership—under pressure and at scale. It continues to inform how I lead cross-functional technical teams, navigate complexity, and drive delivery with operational rigor.
 
 ---
 
