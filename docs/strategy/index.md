@@ -41,7 +41,7 @@ I lead initiatives that turn legacy, spreadsheet‑driven workflows into cloud�
 - Ran requirements workshops and product research  
 - Documented current‑state Visio swimlanes, highlighting pain points  
 - Built field‑mapping doc and sandbox integration plan  
-- Cleaning historic data and leading UAT for production cutover (ETA **Q3 2025**)
+- Cleaning historic data and leading UAT for production cutover
 
 **Tools** — Ramp Plus • NetSuite • Excel • Smartsheet • Visio • Balsamiq
 
