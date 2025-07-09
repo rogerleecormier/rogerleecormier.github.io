@@ -34,7 +34,7 @@ I lead initiatives that turn legacy, spreadsheet‑driven workflows into cloud�
 |---------|-----------|-------------------|
 | **Transaction Coding** | Manual in spreadsheets | Coded at source in Ramp |
 | **ERP Sync** | CSV uploads | Near‑real‑time native sync |
-| **AP Aging** | Static Excel tracker | NetSuite dashboard |
+| **AP Aging** | Static Excel tracker | Ramp dashboard |
 | **Close Effort** | Heavy, error‑prone | ~40 % effort reduction |
 
 **My Role**  
