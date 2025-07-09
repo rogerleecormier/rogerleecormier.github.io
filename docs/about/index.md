@@ -11,7 +11,7 @@ social:
 
 I’m Roger Cormier—a Technical Project Manager and U.S. Army veteran who operates at the intersection of cloud platforms, SaaS ecosystems, and operational strategy. I specialize in modernizing legacy systems, integrating enterprise tools, and aligning cross-functional teams around systems thinking and practical execution.
 
-With experience spanning DevOps, ERP, and SaaS environments, I lead delivery initiatives that eliminate manual friction, surface actionable insight, and support scalable, audit-ready outcomes.
+With experience spanning DevOps, ERP, and SaaS environments, I lead delivery initiatives that eliminate manual friction, surface actionable insight, and support scalable, audit-ready outcomes. I thrive in fast-changing environments, quickly mastering unfamiliar platforms, APIs, and enterprise tools to deliver immediate value.
 
 ---
 

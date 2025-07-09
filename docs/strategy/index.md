@@ -92,13 +92,14 @@ Why it matters: PR‑based docs, zero runtime footprint, fully auditable change 
 
 ## 🧠 Transformation Playbook
 
-1. **Map** current‑state workflows in Visio  
-2. **Interview** stakeholders—capture pain, edge cases, and compliance needs  
-3. **Score** tools for native APIs, governance, UX, and automation potential  
-4. **Wireframe** target UX in Balsamiq; validate with end‑users  
-5. **Build** minimal sandbox integration; cleanse data; iterate  
-6. **Document** with MkDocs; track changes via Git PRs  
-7. **Roll out & Monitor** adoption, KPIs, and audit logs  
+1. **Ramp Up Quickly** — Learn unfamiliar platforms and ecosystems in days, not weeks, to lead implementation without external consultants.
+2. **Map** current‑state workflows in Visio  
+3. **Interview** stakeholders—capture pain, edge cases, and compliance needs  
+4. **Score** tools for native APIs, governance, UX, and automation potential  
+5. **Wireframe** target UX in Balsamiq; validate with end‑users  
+6. **Build** minimal sandbox integration; cleanse data; iterate  
+7. **Document** with MkDocs; track changes via Git PRs  
+8. **Roll out & Monitor** adoption, KPIs, and audit logs  
 
 ---
 
