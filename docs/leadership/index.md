@@ -39,16 +39,13 @@ I operate across business and engineering domains, enabling secure, scalable, an
 - Lead post-deployment support models and transition plans for long-term maintainability  
 - Champion feedback loops with business teams to iterate and improve after launch
 
-
 ---
 
-## 🚧 Representative Projects
+## 🏦 Ramp + NetSuite Integration | AP Process Reform
 
-### Ramp + NetSuite Integration | AP Process Reform
-
-- Led rollout of Ramp's native NetSuite integration (Ramp Plus) to replace spreadsheet-based transaction coding.
-- Coordinated setup of GL mapping, vendor alignment, and sync validation with Finance and IT teams.
-- Established controls for data quality and governance, reducing AP cycle friction and reconciliation lag.
+- Led rollout of Ramp's native NetSuite integration (Ramp Plus) to replace spreadsheet-based transaction coding  
+- Coordinated setup of GL mapping, vendor alignment, and sync validation with Finance and IT teams  
+- Established controls for data quality and governance, reducing AP cycle friction and reconciliation lag  
 
 **Role:** Technical Project Manager  
 **Scope:** Finance + IT, Ramp API, NetSuite CSV imports  
@@ -56,36 +53,35 @@ I operate across business and engineering domains, enabling secure, scalable, an
 
 ---
 
-### Box → Vena Forecast File Intake Streamlining
+## 📁 Box → Vena Forecast File Intake Streamlining
 
-- Resolved delays and file inconsistency in financial forecast uploads to Vena via Box.
-- Introduced structured folder hierarchy, naming conventions, and file intake validation via Smartsheet.
-- Partnered with Finance and FP&A teams to reduce reliance on email-driven coordination.
+- Resolved delays and file inconsistency in financial forecast uploads to Vena via Box  
+- Introduced structured folder hierarchy, naming conventions, and file intake validation via Smartsheet  
+- Partnered with Finance and FP&A teams to reduce reliance on email-driven coordination  
 
-**Role:** Technical Project Manager / Systems Engineer    
+**Role:** Technical Project Manager / Systems Engineer  
 **Scope:** Finance operations, Box file management, Vena ingestion  
 **Results:** Improved traceability, submission QA, and timeliness of forecasting process
 
 ---
 
-### Financial Reporting QA Workflow with Smartsheet
+## 📊 Financial Reporting QA Workflow with Smartsheet
 
-- Developed a Smartsheet-based tracking system to support financial data handoff between business units and the Finance team.
-- Enabled consistent review of uploaded forecast and budget data by mapping file locations, submitters, and timestamps.
-- Supported FP&A workflows by improving visibility into submission completeness and reducing email-driven coordination.
+- Developed a Smartsheet-based tracking system to support financial data handoff between business units and the Finance team  
+- Enabled consistent review of uploaded forecast and budget data by mapping file locations, submitters, and timestamps  
+- Supported FP&A workflows by improving visibility into submission completeness and reducing email-driven coordination  
 
 **Role:** Technical Project Manager  
 **Scope:** Finance operations, Box file intake, Smartsheet tracking  
 **Results:** Improved data handoff clarity, reduced missed submissions, and supported timely ingestion into downstream systems
 
-
 ---
 
-### GitHub Actions + Azure DevOps Automation
+## 🧪 GitHub Actions + Azure DevOps Automation
 
-- Supported cloud automation and CI/CD pipeline adoption using GitHub Actions and Azure Functions.
-- Scoped, tested, and deployed automated workflows for ETL jobs and system monitoring.
-- Collaborated with engineers and DevOps stakeholders to codify processes and reduce toil.
+- Supported cloud automation and CI/CD pipeline adoption using GitHub Actions and Azure Functions  
+- Scoped, tested, and deployed automated workflows for ETL jobs and system monitoring  
+- Collaborated with engineers and DevOps stakeholders to codify processes and reduce toil  
 
 **Role:** Technical Project Manager / Systems Engineer  
 **Scope:** GitHub Actions, Azure Functions, internal DevOps enablement  
@@ -95,19 +91,21 @@ I operate across business and engineering domains, enabling secure, scalable, an
 
 ## 🔑 Leadership Mindset
 
-- **Prioritize the path to value.** Every decision is grounded in what removes bottlenecks, accelerates delivery, or mitigates risk.
-- **Own the outcome, not just the project.** Delivery isn’t done until it’s working, adopted, and supported.
-- **Stay architecture-aware.** Even when not hands-on, I map and challenge technical designs to ensure sustainability and fit.
-- **Translate, bridge, align.** I speak the language of engineers, analysts, finance leads, and execs—building consensus across silos.
+- **Prioritize the path to value.** Every decision is grounded in what removes bottlenecks, accelerates delivery, or mitigates risk.  
+- **Own the outcome, not just the project.** Delivery isn’t done until it’s working, adopted, and supported.  
+- **Stay architecture-aware.** Even when not hands-on, I map and challenge technical designs to ensure sustainability and fit.  
+- **Translate, bridge, align.** I speak the language of engineers, analysts, finance leads, and execs—building consensus across silos.  
+- **Adapt fast.** I quickly ramp up on new systems, processes, or platforms to eliminate dependencies and lead confidently.
 
 ---
 
 ## 🧰 Tools & Platforms
 
-- **Cloud & DevOps:** Azure Functions, Azure App Insights, GitHub Actions, CI/CD, serverless
-- **ERP & Finance:** NetSuite, Vena, Ramp, Checkbook.io
-- **Automation & Workflow:** Power Automate, SuiteScript, Smartsheet, Box API
-- **Project Execution:** SharePoint, Office 365, Excel, Asana, hybrid Agile
+- **Cloud & DevOps:** Azure Functions, Azure App Insights, GitHub Actions, CI/CD, serverless  
+- **ERP & Finance:** NetSuite, Vena, Ramp, Checkbook.io  
+- **Automation & Workflow:** Power Automate, SuiteScript, Smartsheet, Box API  
+- **Project Execution:** SharePoint, Office 365, Excel, Asana, hybrid Agile  
+- **Product/UX Planning:** Balsamiq for wireframes, Visio for workflows, Smartsheet for stakeholder documentation  
 
 ---
 
