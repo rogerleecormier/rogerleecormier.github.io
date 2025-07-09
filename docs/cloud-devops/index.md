@@ -52,20 +52,33 @@ Built a NetSuite‑native ACH workflow that pipes validated payments to Checkboo
 
 ---
 
-### 🌐 Portfolio Site – Docs‑as‑Code  
+### 🌐 Portfolio Site – Docs-as-Code  
 **Stack:** MkDocs (Material) • Python • GitHub Actions • GitHub Pages • HTML/CSS  
 
-This very site doubles as a DevOps showcase:
+This site is itself a DevOps artifact—treating documentation as immutable infrastructure:
 
 | Layer | Highlights |
 |-------|------------|
 | **Static generator** | MkDocs 1.6 + Material 9.x |
-| **Plugins** | `search`, `mkdocs-awesome-nav`, `social`, `admonition`, `pymdown-extensions`, `mdx_math` |
-| **CI/CD** | Two workflows: `Deploy` (build + push to gh‑pages), `pages-build-deployment` (GitHub Pages publish) |
-| **Hosting** | GitHub Pages + custom domain **rcormier.dev** |
-| **Performance** | Build < 10 s, output ≈ 2 MB, instant nav via `navigation.instant` |
+| **Plugins** |  
+  • `search`, `awesome-nav`, `social` → navigation & metadata automation  
+  • `minify` → HTML/CSS/JS compression for fast load times  
+  • `git-revision-date-localized` → Git-based “Last updated” tracking  
+  • `redirects` → automatic legacy link handling  
+  • `admonition`, `pymdown-extensions`, `mdx_math` → content styling & formatting  
+| **CI/CD** |  
+  • Custom `Deploy` workflow – builds and pushes `site/` to `gh-pages`  
+  • GitHub’s `pages-build-deployment` – handles live publish  
+| **Hosting** | GitHub Pages + Porkbun-managed domain **rcormier.dev** |
+| **Performance** | Build in < 10 s, output ~2 MB, minified assets, instant nav via `navigation.instant` |
 
-Benefits: PR‑based edits, zero server maintenance, full audit history, and a demonstrable skill set in static‑site automation.
+**Outcomes:**  
+- **Zero server footprint** – fully static, no backend or runtime patches  
+- **Audit‑ready** – Git-tracked edits, timestamps, and redirect history  
+- **Highly performant** – instant page loads, prefetching, compressed output  
+- **Repeatable deployments** – YAML-defined CI/CD ensures drift-free publishing  
+- **Demonstrated skills** – YAML orchestration, CI pipelines, static site generators, plugin ecosystem control
+
 
 ---
 
