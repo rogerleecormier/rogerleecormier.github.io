@@ -1,132 +1,114 @@
-# 🚀 Digital Transformation Strategy
+# 🚀 Digital Transformation Strategy
 
-As a Technical Project Manager, I drive digital transformation initiatives that modernize outdated business processes, eliminate manual toil, and integrate SaaS platforms into secure, auditable, and efficient systems. My focus is on practical, high-impact changes that align enterprise tools with real operational needs—especially in finance, operations, and compliance-heavy environments.
-
----
-
-## 🧭 Strategic Focus Areas
-
-### Process Modernization
-- Identify pain points in legacy workflows, from intake to reconciliation.
-- Eliminate bottlenecks and reduce manual overhead through automation.
-- Redesign processes for scale, auditability, and cross-functional clarity.
-
-### SaaS Integration
-- Connect cloud tools through native APIs, low-code platforms, or file-based automation.
-- Standardize data handoffs across tools like NetSuite, Ramp, Box, Vena, and Smartsheet.
-- Validate and enrich transactions before pushing to ERP or financial systems.
-
-### ERP Alignment & Governance
-- Ensure integrations respect ERP data structures, audit standards, and approval policies.
-- Leverage SuiteScript, CSV imports, and business rules to enforce compliance.
-- Collaborate with finance teams to test, validate, and adopt sustainable workflows.
+I lead initiatives that turn legacy, spreadsheet‑driven workflows into cloud‑native, API‑connected systems. My north star: deliver measurable impact that finance and operations teams adopt without friction—complete with audit trails, real‑time reporting, and sustainable governance.
 
 ---
 
-## 📌 Accounts Payable Transformation – Ramp + NetSuite
+## 🧭 Strategic Focus Areas
 
-### Background  
-Before the transformation, the AP process relied entirely on manual data management:
-
-- Ramp transactions were exported and coded after the fact using spreadsheet “cover sheets.”
-- GL account, department, and vendor coding were inconsistent and lacked validation.
-- Transactions were uploaded into NetSuite manually via CSV imports.
-- AP aging was tracked using static spreadsheets with no real-time visibility.
-- No integration existed between Ramp and NetSuite, increasing close-cycle delays and audit risk.
-
-### Strategic Objective  
-Leverage Ramp’s **native NetSuite integration (Ramp Plus)** to:
-- Eliminate manual entry,
-- Improve coding accuracy,
-- Establish real-time AP visibility,
-- And reduce Finance workload during monthly close.
-
-### My Role  
-- Facilitated working sessions with Finance and IT to document the current AP process.
-- Coordinated the activation and configuration of **Ramp’s NetSuite integration**.
-- Cleaned and prepared historical transaction data for ERP ingestion.
-- Supported mapping logic setup between Ramp and NetSuite fields.
-- Led testing and validation to ensure reliable journal sync and GL alignment.
-- Worked with stakeholders to retire spreadsheet tracking and adopt ERP-based aging reports.
-
-### Key Improvements  
-| Area | Before | After |
-|------|--------|-------|
-| Transaction Coding | Manual, post-facto in spreadsheets | Applied in Ramp interface or during approval |
-| ERP Sync | Manual CSV uploads | Native, near-real-time integration |
-| AP Aging | Static spreadsheet tracking | NetSuite-based real-time reporting |
-| Data Quality | Inconsistent, error-prone | Standardized, validated via Ramp-NetSuite sync |
-| Close Process | High-effort, high-friction | Reduced time and error rate |
-
-### Tools Used  
-Ramp Plus • NetSuite • Smartsheet (interim tracking) • Excel (cleanup and mapping)
+| Focus | What I Deliver |
+|-------|----------------|
+| **Process Modernization** | Map legacy flows → eliminate manual steps → redesign for scale, auditability, and clarity |
+| **Tool Evaluation & Selection** | Score vendors on native integrations, governance controls, UX, and automation potential |
+| **SaaS Integration** | Tie together NetSuite, Ramp, Box, Vena, and Smartsheet via REST APIs, SuiteScript, or low‑code connectors |
+| **ERP Governance** | Enforce GL rules, approval chains, and audit standards directly in NetSuite |
+| **Product & UX Design** | Capture requirements, diagram workflows in Visio, and wireframe UI concepts in Balsamiq |
 
 ---
 
-## 📦 File Intake Streamlining – Box → Vena
+## 🔑 Core Transformation Tech Stack
 
-### Background  
-Forecast files submitted by business units were uploaded to Box manually, then manually tracked and ingested into Vena by Finance. This process was highly error-prone:
-
-- Files were sometimes overwritten, mislabeled, or delayed.
-- Upload confirmations required manual email chains.
-- Ingestion into Vena was inconsistent due to naming issues and misaligned templates.
-
-### My Role  
-- Documented the file intake process and mapped gaps in traceability.
-- Introduced file tracking via Smartsheet to capture who submitted what, when, and where.
-- Standardized folder structure and file naming conventions in Box.
-- Coordinated with the Vena team to align ingestion expectations with naming/format requirements.
-
-### Outcome  
-- Increased visibility into file submission timelines.
-- Reduced risk of missing or misprocessed forecasts.
-- Improved Finance team confidence in submission completeness and readiness.
-
-### Tools Used  
-Box • Smartsheet • Vena • Manual QA processes
+| Category | Tools |
+|----------|-------|
+| **ERP & Finance** | NetSuite, Vena, Ramp |
+| **Automation** | Python, Power Automate |
+| **Collaboration** | Smartsheet, Outlook, Teams |
+| **Design & Mapping** | Visio, Balsamiq |
+| **Documentation** | MkDocs + GitHub Pages |
 
 ---
 
-## 🧾 Vendor Onboarding Intake Modernization
+## 💳 Accounts Payable Transformation (Ramp → NetSuite) — *In Progress*
 
-### Background  
-Vendor creation was previously managed through static Word/PDF forms and email submissions. The process was unstructured, often incomplete, and lacked a central tracking source.
+| 📌 Area | ⬅️ Before | ➡️ After (Target) |
+|---------|-----------|-------------------|
+| **Transaction Coding** | Manual in spreadsheets | Coded at source in Ramp |
+| **ERP Sync** | CSV uploads | Near‑real‑time native sync |
+| **AP Aging** | Static Excel tracker | NetSuite dashboard |
+| **Close Effort** | Heavy, error‑prone | ~40 % effort reduction |
 
-### My Role  
-- Developed a Smartsheet-based vendor request intake form with required fields and validation rules.
-- Tracked status of submissions, approvals, and data QA within a centralized sheet.
-- Partnered with the Finance team to ensure consistent GL and vendor master alignment before NetSuite entry.
-- Helped reduce inbox congestion and standardize data formats submitted for entry.
+**My Role**  
+- Ran requirements workshops and product research  
+- Documented current‑state Visio swimlanes, highlighting pain points  
+- Built field‑mapping doc and sandbox integration plan  
+- Cleaning historic data and leading UAT for production cutover (ETA **Q3 2025**)
 
-### Outcome  
-- Streamlined vendor intake and reduced cycle time.
-- Reduced rework caused by incomplete submissions.
-- Established a scalable model for other intake processes (e.g., employee expense setup).
-
-### Tools Used  
-Smartsheet • NetSuite Vendor Master • Email (for approvals)
+**Tools** — Ramp Plus • NetSuite • Excel • Smartsheet • Visio • Balsamiq
 
 ---
 
-## 🧠 Strategic Takeaways
+## 📦 Forecast File Intake Streamlining (Box → Vena)
 
-- **Start with the pain point, not the platform.** Success came from understanding the day-to-day friction teams experienced—not just from pushing tools.
-- **Native integrations are only valuable when properly configured.** Even out-of-the-box connections require business alignment, cleanup, and governance.
-- **Manual workarounds are process red flags.** Spreadsheets, email approvals, and static tracking often hide process debt that should be retired.
-- **Change management is 50% of the job.** Workflows that aren’t adopted, tested, and supported fail regardless of technical merit.
+| 📌 Metric | Result |
+|-----------|--------|
+| File‑ingestion failures | ↓ by ~50 % (naming misalign & template drift resolved) |
+| Submission visibility | Near‑real‑time via Smartsheet dashboard |
+| Forecast cycle time | Shortened by 1 business day per cycle |
 
----
+**Contributions**  
+- Visio diagram of intake flow and failure modes  
+- Standardized Box folder structure + naming conventions  
+- Smartsheet tracking form & dashboard for submission status  
+- Coordinated Vena template alignment with Finance
 
-## 🧰 Related Skills
-
-- SaaS Integration Strategy (Ramp, NetSuite, Box, Vena, Smartsheet)
-- Business Process Reengineering
-- CSV and API-Based ERP Data Ingestion
-- NetSuite SuiteScript Requirements Gathering
-- Intake and Approval Automation
-- Stakeholder Alignment and Change Leadership
+[View Workflow Diagram →](../assets/diagrams/box-vena-flow.pdf)
 
 ---
 
-For more detail on any of these transformation projects or implementation diagrams, [contact me](../contact/index.md).
+## 🌐 Docs‑as‑Code Portfolio Site
+
+| Layer | Details |
+|-------|---------|
+| **Generator** | MkDocs 1.6 + Material 9.x |
+| **Plugins** | `awesome-nav`, `search`, `social`, `minify`, `git-revision-date-localized`, `redirects`, `admonition`, `pymdown-extensions`, `mdx_math` |
+| **CI/CD** | Deploy workflow → `mkdocs build` → `gh-pages`; GitHub Pages auto‑publish |
+| **Outcome Metrics** | Build < 10 s • Output ~2 MB • Hosting cost $0 |
+
+Why it matters: PR‑based docs, zero runtime footprint, fully auditable change history—an example of treating docs like code.
+
+---
+
+## 🛠️ Custom Automation Utilities
+
+| Utility | Purpose | Outcome |
+|---------|---------|---------|
+| **CalPERS XLSX → XML** | Convert pension spreadsheets to county‑standard XML | Manual re‑entry eliminated |
+| **Box → Smartsheet Indexer** | Auto‑catalog docs & push metadata to Smartsheet | Live inventory dashboards |
+| **NetSuite CSV Pipeline** | Clean & transform exports | Faster month‑end; fewer posting errors |
+| **Outlook → Smartsheet Tickets** | Create tickets from emails | 300 + requests triaged monthly |
+| **Onboarding Tracker** | Populate Smartsheet from Teams/Outlook | Improved SLA adherence |
+
+---
+
+## 🧠 Transformation Playbook
+
+1. **Map** current‑state workflows in Visio  
+2. **Interview** stakeholders—capture pain, edge cases, and compliance needs  
+3. **Score** tools for native APIs, governance, UX, and automation potential  
+4. **Wireframe** target UX in Balsamiq; validate with end‑users  
+5. **Build** minimal sandbox integration; cleanse data; iterate  
+6. **Document** with MkDocs; track changes via Git PRs  
+7. **Roll out & Monitor** adoption, KPIs, and audit logs  
+
+---
+
+## 📈 Measured Impact
+
+- 🕒 **20 + hours/week** cut via serverless ETL  
+- 🤖 **100 + dev‑hours/month** reclaimed by AI‑assisted workflows  
+- 🧾 **300 + finance users** rely on automated AP and forecast pipelines  
+- 📊 Forecast ingestion failures ↓ ~50 % after Box → Vena standardization  
+
+---
+
+_For diagrams, data dictionaries, or a deep dive into any transformation, [contact me →](../contact/index.md)_
