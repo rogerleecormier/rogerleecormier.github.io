@@ -55,29 +55,25 @@ Built a NetSuite‑native ACH workflow that pipes validated payments to Checkboo
 ### 🌐 Portfolio Site – Docs-as-Code  
 **Stack:** MkDocs (Material) • Python • GitHub Actions • GitHub Pages • HTML/CSS  
 
-This site is itself a DevOps artifact—treating documentation as immutable infrastructure:
+This portfolio site is a standalone DevOps project, built to treat documentation with the same rigor as application code—version-controlled, auditable, and CI/CD-enabled.
 
-| Layer | Highlights |
-|-------|------------|
-| **Static generator** | MkDocs 1.6 + Material 9.x |
-| **Plugins** |  
-  • `search`, `awesome-nav`, `social` → navigation & metadata automation  
-  • `minify` → HTML/CSS/JS compression for fast load times  
-  • `git-revision-date-localized` → Git-based “Last updated” tracking  
-  • `redirects` → automatic legacy link handling  
-  • `admonition`, `pymdown-extensions`, `mdx_math` → content styling & formatting  
-| **CI/CD** |  
-  • Custom `Deploy` workflow – builds and pushes `site/` to `gh-pages`  
-  • GitHub’s `pages-build-deployment` – handles live publish  
-| **Hosting** | GitHub Pages + Porkbun-managed domain **rcormier.dev** |
-| **Performance** | Build in < 10 s, output ~2 MB, minified assets, instant nav via `navigation.instant` |
+| Layer | Details |
+|-------|---------|
+| **Static Generator** | MkDocs 1.6 with the Material 9.x theme |
+| **Plugin Ecosystem** | Search indexing (`search`), YAML-driven navigation (`awesome-nav`), Open Graph previews (`social`), HTML/CSS/JS minification (`minify`), Git-based revision tracking (`git-revision-date-localized`), redirect mapping (`redirects`), advanced formatting (`admonition`, `pymdown-extensions`, `mdx_math`) |
+| **CI/CD Pipeline** | Two GitHub Actions workflows: <br>1. `Deploy` – installs deps, builds the site, pushes to `gh-pages` via `peaceiris/actions-gh-pages` <br>2. `pages-build-deployment` – handles the final publish via GitHub Pages |
+| **Hosting** | GitHub Pages with custom domain [rcormier.dev](https://www.rcormier.dev), DNS via Porkbun |
+| **Performance** | Sub-10 second build times, ~2 MB total output, minified assets, instant-loading via `navigation.instant` |
 
-**Outcomes:**  
-- **Zero server footprint** – fully static, no backend or runtime patches  
-- **Audit‑ready** – Git-tracked edits, timestamps, and redirect history  
-- **Highly performant** – instant page loads, prefetching, compressed output  
-- **Repeatable deployments** – YAML-defined CI/CD ensures drift-free publishing  
-- **Demonstrated skills** – YAML orchestration, CI pipelines, static site generators, plugin ecosystem control
+**Why it matters:**  
+This site exemplifies best practices in static site deployment, including:
+
+- **Zero runtime footprint** – no server, patching, or backend infrastructure  
+- **Auditable changes** – every commit is versioned and timestamped via Git  
+- **Developer-native workflow** – content is written in Markdown and managed via pull requests  
+- **Scalable and free** – high-performance GitHub-hosted site with no hosting costs  
+- **Practical DevOps** – demonstrates YAML pipeline design, static site generators, and plugin customization
+
 
 
 ---
