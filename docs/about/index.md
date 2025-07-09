@@ -7,7 +7,25 @@ social:
 
 # 👤 About Me
 
-![Roger Cormier](https://www.rcormier.dev/assets/images/IMG_1242.JPG)
+## 👋 About Me
+
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem; margin-bottom: 2rem;">
+
+  <div style="flex: 0 0 220px;">
+    <img src="assets/images/IMG_1242.JPG" alt="Roger Cormier headshot" style="width: 100%; border-radius: 8px;" />
+  </div>
+
+  <div style="flex: 1; min-width: 250px;">
+    <h2 style="margin-top: 0;">Roger Cormier</h2>
+    <ul style="padding-left: 1.2em;">
+      <li><strong>🎯 Technical Program Manager</strong> – Leading DevOps, SaaS, and ERP transformations</li>
+      <li><strong>🪖 Military Veteran</strong> – Strategy-driven, operationally grounded</li>
+      <li><strong>🔧 Systems Integrator</strong> – Connecting NetSuite, Azure, Ramp, and Smartsheet pipelines</li>
+    </ul>
+  </div>
+
+</div>
+
 
 I’m Roger Cormier—a Technical Project Manager and U.S. Army veteran who operates at the intersection of cloud platforms, SaaS ecosystems, and operational strategy. I specialize in modernizing legacy systems, integrating enterprise tools, and aligning cross-functional teams around systems thinking and practical execution.
 
