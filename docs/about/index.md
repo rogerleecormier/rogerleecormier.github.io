@@ -7,8 +7,6 @@ social:
 
 # 👤 About Me
 
-## 👋 About Me
-
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem; margin-bottom: 2rem;">
 
   <div style="flex: 0 0 220px;">
@@ -16,7 +14,7 @@ social:
   </div>
 
   <div style="flex: 1; min-width: 250px;">
-    <h2 style="margin-top: 0;">Roger Cormier</h2>
+    <h1 style="margin-top: 0;">Roger Cormier</h1>
     <ul style="padding-left: 1.2em;">
       <li><strong>🎯 Technical Program Manager</strong> – Leading DevOps, SaaS, and ERP transformations</li>
       <li><strong>🪖 Military Veteran</strong> – Strategy-driven, operationally grounded</li>
