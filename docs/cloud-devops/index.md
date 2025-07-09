@@ -17,7 +17,7 @@ I operate at the intersection of product leadership and hands‑on engineering, 
 
 ## 🔁 Portfolio Highlights
 
-### Box → Vena Serverless ETL
+### 📦 Box → Vena Serverless ETL
 **Stack:** Azure Functions • GitHub Actions • Java ETL • Box API
 
 Replaced a legacy server-based batch script with a cloud-native, serverless pipeline that processes ad hoc financial data files from Box into Vena using a Java-based ETL. The solution includes schema validation, idempotent retry logic, detailed logging with Azure Application Insights, and secret management via Azure Key Vault. Azure Communication Services handles real-time email alerts, and GitHub Actions automates the build and deployment workflow for consistent, version-controlled releases.
@@ -28,7 +28,7 @@ Replaced a legacy server-based batch script with a cloud-native, serverless pipe
 
 ---
 
-### AI-Augmented & Cloud Native Development
+### 🤖 AI-Augmented & Cloud Native Development
 **Stack:** GitHub Codespaces • GitHub Copilot • Claude • ChatGPT
 
 Leveraged AI and cloud-based developer environments to optimize backend automation and integration workflows. Used GitHub Codespaces to provision consistent, pre-configured dev environments for rapid iteration on Python and SuiteScript projects. Combined Copilot, Claude, and ChatGPT to scaffold code, debug, and accelerate internal tool development. AI was also used to draft internal documentation, explain API behaviors, and test edge-case scenarios.
@@ -39,7 +39,7 @@ Leveraged AI and cloud-based developer environments to optimize backend automati
 
 ---
 
-### Finance Ops Orchestration
+### 💳 Finance Ops Orchestration
 **Stack:** Oracle NetSuite • SuiteScript • REST APIs
 
 Engineered a NetSuite-native ACH automation that directly integrates with Checkbook.io via REST API, eliminating all manual file uploads and payor selection by AP staff. The legacy process introduced financial risk due to duplicate file submissions and incorrect payor choices—risks that Checkbook.io’s interface could not detect or block. The new customization transmits payment data programmatically from NetSuite, enforces entity-specific rules, and validates GL segments before submission.
@@ -52,7 +52,7 @@ Engineered a NetSuite-native ACH automation that directly integrates with Checkb
 
 ---
 
-### Portfolio Site 
+### 🌐 Portfolio Site 
 **Stack:** MkDocs (Material) • Python • GitHub Actions • GitHub Pages • VS Code • GitHub Copilot • ChatGPT • HTML/CSS
 
 Built this portfolio itself as a standalone DevOps project to **“treat documentation like code.”**  
@@ -93,7 +93,7 @@ A suite of targeted tools that bridge gaps traditional SaaS vendors leave open:
 
 ---
 
-### Retail POS Automation at Scale
+### 🖥️ Retail POS Automation at Scale
 **Stack:** Python • VBScript • Windows Batch • VMware
 
 Authored 30+ automation scripts to patch Toshiba TCxSky/4690 POS nodes, push zero-day security fixes, and capture forensic logs across 150+ stores. A fleet of 50+ VMware clones mirrors production for pre-rollout validation.
