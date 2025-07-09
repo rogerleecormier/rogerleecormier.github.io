@@ -29,9 +29,6 @@ This repository contains the source for my portfolio site, showcasing cloud auto
 **Core MkDocs Plugins**  
 - `search` – full‑text site search with custom tokenization  
 - `mkdocs-awesome-nav` – YAML‑driven sidebar navigation via `nav.yml`  
-- `mkdocs-get-deps` – dynamically include external Markdown snippets  
-- `git-revision-date-localized` – shows “Last updated” dates using Git  
-- `optimize` – minifies HTML/CSS/JS for faster page loads  
 - `social` – auto‑generates Open Graph/social preview cards
 
 **Markdown Extensions**  
@@ -39,6 +36,7 @@ This repository contains the source for my portfolio site, showcasing cloud auto
 - `codehilite` – enhanced code block highlighting  
 - `mdx_math` – LaTeX/KaTeX math support  
 - `toc` – automatic table‑of‑contents with permalinks  
+- `footnotes` - inline and endnotes 
 
 ---
 
