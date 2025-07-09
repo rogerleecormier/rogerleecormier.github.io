@@ -28,14 +28,25 @@ Replaced a legacy server-based batch script with a cloud-native, serverless pipe
 
 ---
 
-### 🤖 AI-Augmented & Cloud Native Development
-**Stack:** GitHub Codespaces • GitHub Copilot • Claude • ChatGPT
+### 🤖 AI-Augmented & Cloud Native Development  
+**Stack:** GitHub Codespaces • GitHub Copilot • Claude Sonnet 3.7 • ChatGPT-4o
 
-Leveraged AI and cloud-based developer environments to optimize backend automation and integration workflows. Used GitHub Codespaces to provision consistent, pre-configured dev environments for rapid iteration on Python and SuiteScript projects. Combined Copilot, Claude, and ChatGPT to scaffold code, debug, and accelerate internal tool development. AI was also used to draft internal documentation, explain API behaviors, and test edge-case scenarios.
+Adopted an AI-first engineering workflow to accelerate automation and DevOps delivery. Used **GitHub Codespaces** to launch pre-configured, containerized environments—eliminating setup drift and reducing provisioning time from hours to minutes.
 
-- Reduced environment setup time from hours to minutes via Codespaces
-- Automated low-level scripting tasks, reclaiming ~100 dev-hours/month
-- Accelerated delivery of finance automation tools and CI/CD optimizations
+Integrated multiple LLMs to optimize across the pipeline:
+
+- **Claude Sonnet 3.7** (via Copilot Chat and CLI) for multi-step reasoning, YAML/config generation, and API design patterns.
+- **ChatGPT-4o** for debugging, Markdown structuring, and parsing ambiguous or undocumented APIs.
+- **GitHub Copilot** for in-editor code suggestions, scaffolding utilities, and templating Python, SuiteScript, and PowerShell logic.
+
+AI tools were used across the SDLC—not just to write code, but to reason about it:
+
+- **Code Acceleration**: Cut delivery time of automation scripts and workflows by up to 5×.
+- **CI/CD Optimization**: Used LLMs to test, debug, and improve GitHub Actions pipelines.
+- **Self-Documenting Systems**: Generated context-aware code comments and developer onboarding docs.
+- **Edge-Case Validation**: Simulated logic paths and failure modes before production rollout.
+
+> These practices reclaimed over **100 developer-hours/month** and established AI as a core contributor in my DevOps stack.
 
 ---
 
