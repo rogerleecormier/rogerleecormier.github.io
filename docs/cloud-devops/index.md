@@ -52,7 +52,7 @@ Engineered a NetSuite-native ACH automation that directly integrates with Checkb
 
 ---
 
-### 🌐 Portfolio Site 
+### Portfolio Site 
 **Stack:** MkDocs (Material) • Python • GitHub Actions • GitHub Pages • VS Code • GitHub Copilot • ChatGPT • HTML/CSS
 
 Built this portfolio itself as a standalone DevOps project to **“treat documentation like code.”**  
