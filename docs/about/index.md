@@ -16,9 +16,9 @@ social:
   <div style="flex: 1; min-width: 250px;">
     <h1 style="margin-top: 0;">Roger Cormier</h1>
     <ul style="padding-left: 1.2em;">
-      <li><strong>🎯 Technical Program Manager</strong> – Leading DevOps, SaaS, and ERP transformations</li>
-      <li><strong>🪖 Military Veteran</strong> – Strategy-driven, operationally grounded</li>
-      <li><strong>🔧 Systems Integrator</strong> – Connecting NetSuite, Azure, Ramp, and Smartsheet pipelines</li>
+      <li style="list-style-type: none;"><strong>🎯 Technical Program Manager</strong> – Leading DevOps, SaaS, and ERP transformations</li>
+      <li style="list-style-type: none;"><strong>🪖 Military Veteran</strong> – Strategy-driven, operationally grounded</li>
+      <li style="list-style-type: none;"><strong>🔧 Systems Integrator</strong> – Connecting NetSuite, Azure, Ramp, and Smartsheet pipelines</li>
     </ul>
   </div>
 
