@@ -10,7 +10,7 @@ social:
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem; margin-bottom: 2rem;">
 
   <div style="flex: 0 0 220px;">
-    <img src="assets/images/IMG_1242.JPG" alt="Roger Cormier headshot" style="width: 100%; border-radius: 8px;" />
+    <img src="https://www.rcormier.dev/assets/images/IMG_1242.JPG" alt="Roger Cormier headshot" style="width: 100%; border-radius: 8px;" />
   </div>
 
   <div style="flex: 1; min-width: 250px;">
