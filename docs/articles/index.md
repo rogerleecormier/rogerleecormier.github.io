@@ -2,8 +2,6 @@
 
 Explore Roger Cormier’s published insights on leadership, technology strategy, and automation.
 
-Here's the full markdown to add to your MkDocs portfolio page:
-
 ## [The Future of Finance Operations: Ramp Agents & AI‑Driven Workflows](https://www.linkedin.com/pulse/future-finance-operations-ramp-agents-ai-driven-roger-lee-cormier-w56af)
 *Published July 14, 2025*
 
