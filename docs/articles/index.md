@@ -3,7 +3,7 @@
 Explore Roger Cormier’s published insights on leadership, technology strategy, and automation.
 
 ## [Why I Pursued the PMP to Lead Digital Transformation, Automation, and System Integration Projects](https://www.linkedin.com/pulse/why-i-pursued-pmp-lead-digital-transformation-system-projects-soa8c)  
-*Published July 21, 2025*  
+*Published July 20, 2025*  
 
 An in-depth exploration of how the PMP® certification empowers technical leaders to drive enterprise-scale transformation—covering stakeholder engagement, hybrid delivery methods, risk management, and value-focused governance for automation, system integrations, and scalable digital initiatives.
 
