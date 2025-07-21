@@ -17,9 +17,16 @@ A deep dive into how Ramp’s new AI-powered agents are transforming finance ope
 ---
 
 ## [Be-Know-Do: Translating Military Leadership into Excellence](https://www.linkedin.com/pulse/know-do-translating-military-leadership-excellence-roger-lee-cormier-tn4nc)
-*Published July 08, 2025*
+*Published July 09, 2025*
 
 Applying the Army’s leadership model—Be, Know, Do—to influence organizational leadership in the tech sector.
+
+---
+
+## [From Docs to Delivery: How I Built My Cloud DevOps Site with MkDocs](https://www.linkedin.com/pulse/from-docs-delivery-how-i-built-my-cloud-devops-site-mkdocs-cormier-w2gic)
+*Published July 07, 2025*
+
+A hands-on walkthrough of building a technical portfolio and documentation hub using MkDocs and Material theme.
 
 ---
 
@@ -27,13 +34,6 @@ Applying the Army’s leadership model—Be, Know, Do—to influence organizatio
 *Published July 05, 2025*
 
 Strategic approaches to designing digital transformation initiatives with scalability, governance, and delivery in mind.
-
----
-
-## [From Docs to Delivery: How I Built My Cloud DevOps Site with MkDocs](https://www.linkedin.com/pulse/from-docs-delivery-how-i-built-my-cloud-devops-site-mkdocs-cormier-w2gic)
-*Published July 02, 2025*
-
-A hands-on walkthrough of building a technical portfolio and documentation hub using MkDocs and Material theme.
 
 ---
 
