@@ -87,6 +87,11 @@ markdown_extensions:
       permalink: true
       separator: "_"
       toc_depth: 2-3   # Only show h2 and h3 in the ToC/anchors
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 plugins:
   - search:
