@@ -1,7 +1,9 @@
 nav:
   - Portfolio:
     - Overview: portfolio/index.md
-    - Data Analytics: data-analytics/index.md
+    - Data Analytics: 
+        - Overview: data-analytics/index.md
+        - Project Analysis: data-analytics/project-analysis.md
     - Cloud & DevOps Engineering: cloud-devops/index.md
     - ERP & SaaS Integration: erp-saas/index.md
     - Digital Transformation Strategy: strategy/index.md
