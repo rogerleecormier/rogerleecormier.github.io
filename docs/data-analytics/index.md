@@ -61,7 +61,13 @@ I embed operational analytics into every program I manage—using data to guide 
 
 ## 🎓 Academic Foundation in Analytics
 
-As part of my M.S. in Organizational Leadership, I completed a graduate course in **Data-Driven Decision Making**, applying real-world forecasting and statistical models to business use cases.
+### Courses
+
+**Data Analytics** - apply management analysis and other techniques to assess how data analytics can be integrated throughout organizational operations. 
+
+**Data-Driven Decision Making** - apply real-world forecasting and statistical models to business use cases.
+
+---
 
 ### Key Competencies Gained:
 
@@ -75,8 +81,24 @@ As part of my M.S. in Organizational Leadership, I completed a graduate course i
 
 ---
 
-### 💊 Capstone Project: *PainSmart*
+### 💊 Course Project: *Project Analysis*
 
+***Course:** Data Analytics
+**Objective:** Explore budget-related trends in large-scale project management datasets to identify cost distribution patterns and risk exposure.
+
+- Used a Kaggle dataset with 4,000 project records across industries.
+- Calculated descriptive statistics (mean, median, mode, variance, std. dev).
+- Built budget frequency distributions and visualized them using grouped histograms.
+- Applied binning techniques to reveal dominant budget tiers and outliers.
+- Designed executive-friendly charts with Mermaid and Markdown for portfolio use.
+
+📁 *Workbooks and proposal available upon request.*
+
+---
+
+### 💊 Course Project: *PainSmart*
+
+***Course:** Data-Driven Decision Making
 **Objective:** Design a workplace wellness strategy to reduce opioid prescriptions through alternative pain management.
 
 - Used public health data to build statistical comparison models.
