@@ -91,7 +91,7 @@ markdown_extensions:
       custom_fences:
         - name: mermaid
           class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+          format: !!python/name:pymdownx.superfences.fence_div_format
 
 plugins:
   - search:
@@ -110,7 +110,7 @@ plugins:
 extra_javascript:
   - "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-MML-AM_CHTML"
   - "https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
-  - "js/ga4.js"
+  - "https://cdn.jsdelivr.net/npm/mermaid@11.5.0/dist/mermaid.min.js"
 extra_css:
   - "assets/css/custom.css"
 extra:
