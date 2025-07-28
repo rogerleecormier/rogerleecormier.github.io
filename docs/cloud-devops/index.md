@@ -60,7 +60,7 @@ This portfolio site is a standalone DevOps project, built to treat documentation
 | Layer | Details |
 |-------|---------|
 | **Static Generator** | MkDocs 1.6 with the Material 9.x theme |
-| **Plugin Ecosystem** | Search indexing (`search`), YAML-driven navigation (`awesome-nav`), Open Graph previews (`social`), HTML/CSS/JS minification (`minify`), Git-based revision tracking (`git-revision-date-localized`), redirect mapping (`redirects`), advanced formatting (`admonition`, `pymdown-extensions`, `mdx_math`) |
+| **Plugin Ecosystem** | Search indexing (`search`), YAML-driven navigation (`awesome-nav`), Open Graph previews (`social`), HTML/CSS/JS minification (`minify`), Git-based revision tracking (`git-revision-date-localized`), redirect mapping (`redirects`), advanced formatting (`admonition`, `pymdown-extensions`, `mdx_math`, `mermaid`) |
 | **CI/CD Pipeline** | Two GitHub Actions workflows: <br>1. `Deploy` – installs deps, builds the site, pushes to `gh-pages` via `peaceiris/actions-gh-pages` <br>2. `pages-build-deployment` – handles the final publish via GitHub Pages |
 | **Hosting** | GitHub Pages with custom domain [rcormier.dev](https://www.rcormier.dev), DNS via Porkbun |
 | **Performance** | Sub-10 second build times, ~2 MB total output, minified assets, instant-loading via `navigation.instant` |

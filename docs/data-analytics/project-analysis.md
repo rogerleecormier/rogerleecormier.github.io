@@ -59,25 +59,11 @@ This project analyzes a dataset of 4,000 real-world project records to explore h
 ## 📉 Visualizing Budget Tiers
 
 ```mermaid
-bar
-    title Project Budget Frequency (Grouped)
-    x-axis Budget Range
-    y-axis Frequency
-    "$159,355 - $409,355": 189
-    "$409,355 - $659,355": 701
-    "$659,355 - $909,355": 818
-    "$909,355 - $1,159,355": 672
-    "$1,159,355 - $1,409,355": 517
-    "$1,409,355 - $1,659,355": 350
-    "$1,659,355 - $1,909,355": 264
-    "$1,909,355 - $2,159,355": 181
-    "$2,159,355 - $2,409,355": 149
-    "$2,409,355 - $2,659,355": 88
-    "$2,659,355 - $2,909,355": 46
-    "$2,909,355 - $3,159,355": 17
-    "$3,159,355 - $3,409,355": 6
-    "$3,409,355 - $3,659,355": 1
-    "$3,659,355 - $3,909,355": 1
+xychart-beta
+    title "Project Budget Frequency Distribution"
+    x-axis ["159K", "409K", "659K", "909K", "1.15M", "1.4M", "1.65M", "1.9M", "2.15M", "2.4M", "2.65M", "2.9M", "3.15M", "3.4M", "3.65M"]
+    y-axis "Frequency" 0 --> 900
+    bar [189, 701, 818, 672, 517, 350, 264, 181, 149, 88, 46, 17, 6, 1, 1]
 ```
 
 ---
@@ -85,7 +71,7 @@ bar
 ## 🧠 Observations
 
 - The dataset is **right-skewed**, with most project budgets falling below $1.5M.
-- High frequency is observed in the $650K–$1.15M budget range.
+- High frequency is observed in the $650K – $1.15M budget range.
 - Very few projects exceed $2.5M in budget, suggesting large projects are rare.
 - This budget distribution can inform project scoping, resource allocation, and portfolio-level financial planning.
 
