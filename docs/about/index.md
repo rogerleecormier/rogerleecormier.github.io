@@ -14,7 +14,7 @@ social:
   </div>
 
   <div style="flex: 1; min-width: 250px;">
-    <h1 style="margin-top: 0;">Roger Cormier</h1>
+    <h1 style="margin-top: 0;">Roger Cormier, PMP</h1>
     <ul style="padding-left: 1.2em;">
       <li style="list-style-type: none;"><strong>🎯 Technical Program Manager</strong> – Leading DevOps, SaaS, and ERP transformations</li>
       <li style="list-style-type: none;"><strong>🪖 Military Veteran</strong> – Strategy-driven, operationally grounded</li>
@@ -24,8 +24,7 @@ social:
 
 </div>
 
-
-I’m Roger Cormier—a Technical Project Manager and U.S. Army veteran who operates at the intersection of cloud platforms, SaaS ecosystems, and operational strategy. I specialize in modernizing legacy systems, integrating enterprise tools, and aligning cross-functional teams around systems thinking and practical execution.
+I’m Roger Cormier—a PMP-certified Technical Project Manager and U.S. Army veteran who operates at the intersection of cloud platforms, SaaS ecosystems, and operational strategy. I specialize in modernizing legacy systems, integrating enterprise tools, and aligning cross-functional teams around systems thinking and practical execution.
 
 With experience spanning DevOps, ERP, and SaaS environments, I lead delivery initiatives that eliminate manual friction, surface actionable insight, and support scalable, audit-ready outcomes. I thrive in fast-changing environments, quickly mastering unfamiliar platforms, APIs, and enterprise tools to deliver immediate value.
 
@@ -67,15 +66,14 @@ As part of my long-term academic development, I intend to pursue a **Doctor of B
 
 ### 🛠 Certifications
 
-- **CompTIA Network+** – Demonstrates foundational expertise in networking, infrastructure, and system connectivity  
-- **PMP Certification (In Progress)** – Pursuing the Project Management Professional certification to formalize knowledge of project governance, stakeholder alignment, and delivery execution  
+- **Project Management Professional (PMP)** – Globally recognized credential demonstrating mastery of project delivery, stakeholder engagement, and governance  
+- **CompTIA Network+** – Foundational expertise in networking, infrastructure, and system connectivity  
 
 ### 🎯 Future Certifications (Planned)
 
 - **Cloud Certifications** – Targeting Azure or AWS certification paths to complement hands-on experience with cloud-native tools and DevOps automation  
 - **Lean Six Sigma** – Intending to pursue Lean Six Sigma Green Belt to strengthen process optimization and quality improvement capabilities  
 - **Agile Delivery** – Planning to certify in Scrum or SAFe frameworks to enhance formal delivery leadership in hybrid Agile environments
-
 
 ---
 
