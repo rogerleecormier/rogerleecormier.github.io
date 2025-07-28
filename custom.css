@@ -1,0 +1,43 @@
+/****************************/
+/* OVERRIDE MATERIAL STYLES */
+/****************************/
+.md-social__link {
+  display: inline-block;
+  text-align: center;
+  width: 1.6rem;
+  height: 0.8rem;
+}
+
+.md-social__link:hover {
+  color: currentcolor;
+  outline-color: var(--md-accent-fg-color);
+  opacity: 0.7;
+  transition: transform 0.4s cubic-bezier(0.1, 0.7, 0.1, 1), opacity 0.25s;
+}
+
+[dir="ltr"]
+  .md-nav--integrated
+  > .md-nav__list
+  > .md-nav__item--active
+  .md-nav--secondary {
+  border-left: 2px solid var(--md-primary-fg-color);
+  margin-left: 10px;
+}
+[dir="ltr"] .md-nav__link svg + * {
+  margin-left: 0.4rem;
+  text-transform: capitalize;
+}
+
+.md-header__title--active .md-header__topic+.md-header__topic {
+  font-weight: 700;
+}
+
+/* Indent only 3rd tier */
+.md-nav__item .md-nav__item .md-nav__item > .md-nav__link {
+  padding-left: 0.5em;
+}
+/* Remove extra indent for 4th tier and deeper */
+.md-nav__item .md-nav__item .md-nav__item .md-nav__item > .md-nav__link {
+  padding-left: 1.5em;
+  font-weight: normal;
+}
