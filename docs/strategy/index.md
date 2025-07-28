@@ -61,8 +61,6 @@ I lead initiatives that turn legacy, spreadsheet‑driven workflows into cloud�
 - Smartsheet tracking form & dashboard for submission status  
 - Coordinated Vena template alignment with Finance
 
-[View Workflow Diagram →](../assets/diagrams/box-vena-flow.pdf)
-
 ---
 
 ## 🌐 Docs‑as‑Code Portfolio Site
