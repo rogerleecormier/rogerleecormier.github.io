@@ -83,7 +83,7 @@ I embed operational analytics into every program I manage—using data to guide 
 
 ### 💊 Course Project: *Project Analysis*
 
-***Course:** Data Analytics
+**Course:** Data Analytics
 **Objective:** Explore budget-related trends in large-scale project management datasets to identify cost distribution patterns and risk exposure.
 
 - Used a Kaggle dataset with 4,000 project records across industries.
@@ -92,13 +92,13 @@ I embed operational analytics into every program I manage—using data to guide 
 - Applied binning techniques to reveal dominant budget tiers and outliers.
 - Designed executive-friendly charts with Mermaid and Markdown for portfolio use.
 
-📁 *Workbooks and proposal available upon request.*
+[📄 View Project Details](/data-analytics/project-analysis)
 
 ---
 
 ### 💊 Course Project: *PainSmart*
 
-***Course:** Data-Driven Decision Making
+**Course:** Data-Driven Decision Making
 **Objective:** Design a workplace wellness strategy to reduce opioid prescriptions through alternative pain management.
 
 - Used public health data to build statistical comparison models.
